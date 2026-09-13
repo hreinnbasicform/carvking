@@ -79,6 +79,5 @@ p { text-wrap: pretty; }
 .sources { list-style: none; padding: 0; margin: 1rem 0 3rem; border-top: 1px solid var(--rule); }
 .sources li { border-bottom: 1px solid var(--rule); }
 .sources a { display: block; padding: 0.85rem 0; }
-.hide-sm { display: none; }
-@media (min-width: 640px) { .hide-sm { display: inline; } }
+
 
