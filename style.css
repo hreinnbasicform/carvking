@@ -81,3 +81,10 @@ p { text-wrap: pretty; }
 .sources a { display: block; padding: 0.85rem 0; }
 
 
+.hide-sm { display: none; }
+@media (min-width: 640px) { .hide-sm { display: inline; } }
+section.pad { padding: 2.5rem 0; }
+.hero-img { width: 100%; height: auto; max-height: 22rem; object-fit: cover; border-radius: 0.75rem; display: block; }
+figcaption { font-size: 0.8rem; color: var(--subtle); margin-top: 0.4rem; line-height: 1.4; }
+.factor .hero-img { margin-bottom: 0.85rem; max-height: 14rem; }
+.factor .pill { margin-top: 0.35rem; }
