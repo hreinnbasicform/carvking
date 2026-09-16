@@ -147,6 +147,12 @@ figcaption { font-size: 0.8rem; color: var(--subtle); margin-top: 0.4rem; line-h
   background: color-mix(in oklab, var(--bg) 70%, var(--surface));
 }
 .tweet-slot .twitter-tweet { margin: 0; }
+.tweet-slot:not([data-url=""]) {
+  border-style: solid;
+  min-height: 0;
+  padding: 0;
+  background: transparent;
+}
 .slot-note {
   margin: 0.5rem 0 0;
   font-size: 0.85rem;
@@ -164,7 +170,8 @@ figcaption { font-size: 0.8rem; color: var(--subtle); margin-top: 0.4rem; line-h
   padding: 0.7rem 0;
   border-top: 1px solid var(--rule);
 }
-.comment-row blockquote {
+.comment-row blockquote,
+.comment-row p {
   margin: 0;
   color: var(--muted);
   font-style: italic;
@@ -212,6 +219,7 @@ figcaption { font-size: 0.8rem; color: var(--subtle); margin-top: 0.4rem; line-h
   color: var(--muted);
 }
 .window-col { margin-top: 0.75rem; }
+.window-col .tweet-slot { margin: 0.5rem 0; }
 .window-list {
   list-style: none;
   margin: 0.35rem 0 0;

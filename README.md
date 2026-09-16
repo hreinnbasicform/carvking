@@ -4,7 +4,7 @@ Editorial site for [carvking.com](https://carvking.com).
 
 - Home: issue index
 - [`/brief/`](/brief/): Issue 01 fact-check (*Four real files. One break-up story.*)
-- [`/issue-02/`](/issue-02/): Issue 02 Iceland politics/business X roundup (scaffold; tweet embeds to be filled)
+- [`/issue-02/`](/issue-02/): Issue 02 Iceland politics/business X roundup (14–16 Sep 2026 window; X embeds filled)
 - Watchlist (handles, weights, enabled flags): [`data/watchlist.json`](data/watchlist.json)
 
 ## Production
