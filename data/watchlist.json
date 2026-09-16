@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "updated": "2026-09-16",
+  "timezone": "Atlantic/Reykjavik",
+  "window_start": "2026-09-14T00:00:00+00:00",
+  "window_end": "2026-09-16T23:59:59+00:00",
+  "notes": "Weighted watchlist for Carvking Iceland Issue pages. Higher weight = more prominence. enabled=false hides without deleting. Handles corrected via X helper 2026-09-16. Issue 02 HTML lists enabled accounts by weight descending; this file is the source of truth.",
+  "accounts": [
+    {
+      "handle": "KristrunFrosta",
+      "display_name": "Kristrún Frostadóttir",
+      "role": "Prime Minister",
+      "party": "Samfylkingin",
+      "weight": 100,
+      "enabled": true,
+      "notes": "Confirmed by X helper"
+    },
+    {
+      "handle": "thorgkatrin",
+      "display_name": "Þorgerður Katrín Gunnarsdóttir",
+      "role": "Minister for Foreign Affairs; chair Viðreisn",
+      "party": "Viðreisn",
+      "weight": 90,
+      "enabled": true,
+      "notes": "Confirmed"
+    },
+    {
+      "handle": "thordiskolbrun",
+      "display_name": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+      "role": "Politician",
+      "party": "Sjálfstæðisflokkurinn",
+      "weight": 78,
+      "enabled": true,
+      "notes": "Handle corrected from thordis_kolbrun"
+    },
+    {
+      "handle": "sigmundurdavid",
+      "display_name": "Sigmundur Davíð Gunnlaugsson",
+      "role": "Chair, Centre Party",
+      "party": "Miðflokkurinn",
+      "weight": 85,
+      "enabled": true,
+      "notes": "Confirmed Wikidata + X helper"
+    },
+    {
+      "handle": "Bjarni_Ben",
+      "display_name": "Bjarni Benediktsson",
+      "role": "CEO, Samtök atvinnulífsins (not MP)",
+      "party": null,
+      "weight": 80,
+      "enabled": true,
+      "notes": "Business-weighted; X helper: now SA CEO"
+    },
+    {
+      "handle": "IngaSaeland",
+      "display_name": "Inga Sæland",
+      "role": "Politician",
+      "party": "Flokkur fólksins",
+      "weight": 70,
+      "enabled": true,
+      "notes": "Likely OK per X helper"
+    },
+    {
+      "handle": "logieinarsson",
+      "display_name": "Logi Einarsson",
+      "role": "Politician",
+      "party": "Samfylkingin",
+      "weight": 65,
+      "enabled": true,
+      "notes": "Medium confidence handle"
+    },
+    {
+      "handle": "gudlaugurthor",
+      "display_name": "Guðlaugur Þór Þórðarson",
+      "role": "MP",
+      "party": "Sjálfstæðisflokkurinn",
+      "weight": 82,
+      "enabled": true,
+      "notes": "Medium confidence; key in tax-pledge clash"
+    },
+    {
+      "handle": "katrinjak",
+      "display_name": "Katrín Jakobsdóttir",
+      "role": "Former PM",
+      "party": "Vinstri græn",
+      "weight": 60,
+      "enabled": true,
+      "notes": "X helper @katrinjak"
+    },
+    {
+      "handle": "Althingi",
+      "display_name": "Alþingi",
+      "role": "Parliament of Iceland",
+      "party": null,
+      "weight": 60,
+      "enabled": true
+    },
+    {
+      "handle": "MFAIceland",
+      "display_name": "MFA Iceland",
+      "role": "Ministry for Foreign Affairs (EN)",
+      "party": null,
+      "weight": 70,
+      "enabled": true
+    },
+    {
+      "handle": "utanrikisthjon",
+      "display_name": "Utanríkisþjónustan",
+      "role": "MFA Iceland (IS)",
+      "party": null,
+      "weight": 65,
+      "enabled": true
+    },
+    {
+      "handle": "sedlabanki_is",
+      "display_name": "Seðlabanki Íslands",
+      "role": "Central Bank of Iceland",
+      "party": null,
+      "weight": 72,
+      "enabled": true,
+      "notes": "Medium confidence handle"
+    },
+    {
+      "handle": "atvinnulifid",
+      "display_name": "Samtök atvinnulífsins",
+      "role": "Confederation of Icelandic Enterprise",
+      "party": null,
+      "weight": 68,
+      "enabled": true,
+      "notes": "Medium confidence; pair with Bjarni_Ben"
+    }
+  ]
+}
