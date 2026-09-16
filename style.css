@@ -88,3 +88,156 @@ section.pad { padding: 2.5rem 0; }
 figcaption { font-size: 0.8rem; color: var(--subtle); margin-top: 0.4rem; line-height: 1.4; }
 .factor .hero-img { margin-bottom: 0.85rem; max-height: 14rem; }
 .factor .pill { margin-top: 0.35rem; }
+
+/* Issue 02 — tweet slots, comments, politician cards. Keep Issue 01 rules above intact. */
+.window-label {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}
+.pill.theme {
+  background: color-mix(in oklab, var(--steel) 14%, var(--surface));
+  color: var(--steel);
+}
+.text-link {
+  color: var(--steel);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.issue-list .card { margin-bottom: 1.25rem; }
+.issue-list .card:last-child { margin-bottom: 3rem; }
+
+.post-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin: 0.75rem 0;
+}
+.post-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.rank {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.35rem;
+}
+.post-summary {
+  margin: 0.9rem 0;
+  padding: 0 0 0 0.85rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+}
+.post-summary p { margin: 0; }
+.tweet-slot {
+  min-height: 5.5rem;
+  border: 1px dashed var(--rule);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: color-mix(in oklab, var(--bg) 70%, var(--surface));
+}
+.tweet-slot .twitter-tweet { margin: 0; }
+.tweet-slot:not([data-url=""]) {
+  border-style: solid;
+  min-height: 0;
+  padding: 0;
+  background: transparent;
+}
+.slot-note {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--subtle);
+}
+.comments { margin-top: 1.1rem; }
+.comments ul {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0;
+}
+.comment-row {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--rule);
+}
+.comment-row blockquote,
+.comment-row p {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+  border-left: 2px solid var(--rule);
+  padding-left: 0.75rem;
+}
+.comment-row a {
+  font-size: 0.85rem;
+  color: var(--steel);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.politician-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+@media (min-width: 800px) {
+  .politician-grid { grid-template-columns: 1fr 1fr; }
+}
+.politician-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+.politician-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.85rem;
+}
+.politician-head h3 { margin: 0.2rem 0 0; font-size: 1.2rem; }
+.handle {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.politician-meta {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.window-col { margin-top: 0.75rem; }
+.window-col .tweet-slot { margin: 0.5rem 0; }
+.window-list {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  color: var(--subtle);
+  font-size: 0.9rem;
+}
+.window-list li {
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--rule);
+}
+.footer-note {
+  font-size: 0.75rem;
+  color: var(--subtle);
+  max-width: 36rem;
+  text-align: right;
+}
+@media (max-width: 639px) {
+  footer.bar .row { flex-wrap: wrap; }
+  .footer-note { text-align: left; }
+}
