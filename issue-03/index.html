@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shielded Bitcoin: a real design. Not a working product. — Carvking</title>
+  <meta name="description" content="Fact-check of Shielded Bitcoin ([[alloc] init], 24 Sep 2026): does Zcash-style privacy on Bitcoin L1 work, and what do experts say?" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap row">
+      <a class="wordmark" href="../">Carvking</a>
+      <span class="kicker hide-sm">Issue 03</span>
+      <span class="date">25 September 2026</span>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Sections">
+    <div class="wrap">
+      <a href="../">All posts</a>
+      <a href="#claims">Claims</a>
+      <a href="#how">How it works</a>
+      <a href="#experts">Experts</a>
+      <a href="#caveats">Caveats</a>
+      <a href="#sources">Sources</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="wrap pad">
+      <p class="kicker steel">[[alloc] init] · Shielded Bitcoin</p>
+      <h1>A real design. Not a working product.</h1>
+      <p class="lede">On 24 September 2026 a New York cryptography lab published a 56-page spec for Zcash-style private transfers that sit on Bitcoin without a soft fork. The transfer math is serious. The bridge that would make it actual bitcoin is unfinished. Bitcoin itself never checks the proofs.</p>
+      <p><span class="pill partly">Partly true</span> Overall: the privacy design can work on paper. Shielded Bitcoin does not work as a live system today.</p>
+    </section>
+
+    <section id="claims" class="wrap pad">
+      <p class="kicker steel">Claim by claim</p>
+      <h2>What the headline gets right, and where it overreaches</h2>
+
+      <article class="claim">
+        <span class="pill mostly">Mostly true</span>
+        <h3>Shielded Bitcoin brings Zcash-style privacy to Bitcoin without changing Bitcoin consensus.</h3>
+        <p>That is the stated architecture. Bitcoin is used as a bulletin board and ordering layer. Separate indexers enforce the privacy rules.</p>
+        <ul>
+          <li>Authors: Clara Shikhelman, Mikhail Komarov and Aleksei Moskvin at [[alloc] init], paper dated 24 September 2026.</li>
+          <li>Value is held as encrypted notes. Spends publish nullifiers. Validity is a zero-knowledge proof (Groth16 in the current write-up).</li>
+          <li>A shielded transfer is published as an OP_RETURN (or similar) payload. Bitcoin nodes do not validate the privacy protocol.</li>
+          <li>“Without a soft fork” is accurate for the transfer layer. It also means miners will happily confirm invalid shielded blobs; only honest indexers reject them.</li>
+        </ul>
+      </article>
+
+      <article class="claim">
+        <span class="pill mostly">Mostly true</span>
+        <h3>It hides who paid whom and how much.</h3>
+        <p>Inside a populated pool, amounts, senders, receivers and the transfer graph are designed to stay private — the same class of property Zcash shielded pools claim.</p>
+        <ul>
+          <li>Shinobi (Bitcoin Magazine) calls the privacy design “on par with something like Zcash shielded pools,” with the usual entry/exit caveats still to be written up.</li>
+          <li>Public leftovers remain: timing, fees, and the count of inputs and outputs. The paper itself says it hides who and how much, not that a shielded transfer happened.</li>
+          <li>A cold pool starts with a tiny anonymity set. Vadim Zavodil’s critique: your first private transfer can hide in a crowd of one.</li>
+        </ul>
+      </article>
+
+      <article class="claim">
+        <span class="pill misleading">Misleading</span>
+        <h3>Shielded Bitcoin works today — you can move private BTC on L1.</h3>
+        <p>There is a specification, not a deployed product. Peg-in and peg-out are deferred to a companion paper. No production wallets, no mainnet pool to join.</p>
+        <ul>
+          <li>Decrypt, Cointelegraph and Bitcoin.com all report the same gap: transfers inside the system are specified; moving real BTC in and out is not finished.</li>
+          <li>The planned peg uses Bitcoin PIPEs v2 (witness encryption over a signing key) — itself research, with concrete witness-encryption constructions still an active engineering target.</li>
+          <li>Until that peg exists and is battle-tested, “Shielded Bitcoin” is encrypted IOUs on a bulletin board, not spendable mainnet bitcoin with Zcash privacy.</li>
+        </ul>
+      </article>
+
+      <article class="claim">
+        <span class="pill partly">Partly true</span>
+        <h3>It needs no operators, federations or custodians.</h3>
+        <p>True for the transfer layer as designed: spending authority stays with user keys inside encrypted notes. The peg story is different — and incomplete.</p>
+        <ul>
+          <li>Metaprotocol transfers: indexers reconstruct state; they are not meant to hold spending keys.</li>
+          <li>Peg: PIPEs v2 aims for cryptographically gated keys recovered only with a valid proof, avoiding a federation. That paper trail exists as PIPEs research; the Shielded Bitcoin peg paper is still forthcoming.</li>
+          <li>Groth16 implies a one-time trusted setup ceremony. That is not a custodian, but it is a trust assumption Zcash’s newer Orchard/Halo 2 stack has been moving away from.</li>
+        </ul>
+      </article>
+
+      <article class="claim">
+        <span class="pill partly">Partly true</span>
+        <h3>Experts say this ends the need for privacy coins.</h3>
+        <p>Some market voices treat it as a headwind for ZEC and peers. Cryptographers and privacy builders are warmer on the direction than on the finish line.</p>
+        <ul>
+          <li>André Dragosch (Bitwise Europe) flagged it as a “potential headwind for privacy coins” if Bitcoin users can get comparable confidentiality without leaving BTC.</li>
+          <li>Cypherpunk Technologies called it “a great step forward,” then listed why it is not yet competitive with Zcash: trusted setup, no consensus enforcement, incomplete bridge and light clients, and Bitcoin fee drag.</li>
+          <li>Eli Ben-Sasson (StarkWare; Zerocash co-author) welcomed the direction — privacy and scalability via ZK on Bitcoin was the original Zerocash impulse — while noting he had not yet read the paper in depth.</li>
+          <li>Pierre-Luc Dallaire-Demers (Pauli Group) called the construction interesting but “not quantum resistant at all.”</li>
+        </ul>
+      </article>
+
+      <article class="claim">
+        <span class="pill true">True</span>
+        <h3>Bitcoin will store data it cannot understand.</h3>
+        <p>That is the point of the design, and the main operational risk readers should keep in view.</p>
+        <ul>
+          <li>A ~2-in/2-out shielded transfer is reported around 625–700 vbytes — several times a simple payment — published so indexers can replay it.</li>
+          <li>Relay assumptions lean on larger OP_RETURN defaults (Bitcoin Core v30 territory). Node operators can tighten policy; publication is not guaranteed by consensus.</li>
+          <li>Invalid shielded payloads can still confirm. Privacy and soundness live or die with indexer honesty and client software, not with Bitcoin Script.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="how" class="wrap pad">
+      <p class="kicker steel">Mechanism</p>
+      <h2>How the pieces are supposed to fit</h2>
+      <p class="lede">Think Zcash’s shielded pool, with Bitcoin as the only chain that orders the encrypted mail.</p>
+      <div class="grid-2">
+        <div class="tile"><p class="kicker muted">Notes</p><p>Encrypted UTXO-like values; amounts and owners stay off the public graph.</p></div>
+        <div class="tile"><p class="kicker muted">Nullifiers</p><p>Public spend markers so a note cannot be spent twice without revealing which note it was.</p></div>
+        <div class="tile"><p class="kicker muted">Proofs</p><p>Groth16 ZK proofs assert balance, ownership and nullifier correctness.</p></div>
+        <div class="tile"><p class="kicker muted">Indexers</p><p>Replay Bitcoin history, verify proofs, rebuild the note tree and nullifier set.</p></div>
+        <div class="tile"><p class="kicker muted">Publication</p><p>OP_RETURN (or similar) envelopes; Bitcoin orders them and forgets what they mean.</p></div>
+        <div class="tile"><p class="kicker muted">Peg (unfinished)</p><p>PIPEs v2 witness encryption aimed at unlocking BTC only with a valid peg-out proof.</p></div>
+      </div>
+      <div class="ink-block">
+        <h3>The one sentence that matters</h3>
+        <p>Shielded Bitcoin can look like private bitcoin transfers while Bitcoin is only storing ciphertext. Whether those notes are backed by coins you can exit is a separate, unfinished cryptographic project — not a checkbox the 24 September paper closes.</p>
+      </div>
+    </section>
+
+    <section id="experts" class="wrap pad">
+      <p class="kicker steel">What people who build this stuff said</p>
+      <h2>Praise for the direction. Caveats on the distance left.</h2>
+      <div class="grid-2">
+        <article class="factor">
+          <h3>Shinobi — Bitcoin Magazine</h3>
+          <p>Calls the privacy design well built and comparable to Zcash shielded pools; stresses entry/exit privacy still needs its own paper; explains the PIPEs peg as the next deliverable.</p>
+        </article>
+        <article class="factor">
+          <h3>Eli Ben-Sasson — StarkWare</h3>
+          <p>Supportive of the north star: ZK privacy (and scale) on Bitcoin’s base layer was what Zerocash was aiming at. Not a code review of this paper.</p>
+        </article>
+        <article class="factor">
+          <h3>Vadim Zavodil</h3>
+          <p>Privacy is a function of the crowd. A new metaprotocol starts at zero anonymity set; Zcash’s pool was built over years.</p>
+        </article>
+        <article class="factor">
+          <h3>Cypherpunk Technologies</h3>
+          <p>“Great step forward,” then a punch list: trusted setup, no consensus enforcement, unfinished bridge/light clients, Bitcoin fees — Zcash still has the production lead.</p>
+        </article>
+        <article class="factor">
+          <h3>André Dragosch — Bitwise Europe</h3>
+          <p>Market frame: if BTC gains Zcash-like confidentiality in place, dedicated privacy coins face a narrative headwind.</p>
+        </article>
+        <article class="factor">
+          <h3>Pierre-Luc Dallaire-Demers — Pauli Group</h3>
+          <p>Interesting construction; not post-quantum. A live reminder that “works” also means “works against which adversary.”</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="caveats" class="wrap pad">
+      <p class="kicker steel">Still open</p>
+      <h2>Four gaps between the PDF and a product</h2>
+      <div class="grid-2">
+        <article class="factor"><h3>1. Peg-in / peg-out</h3><p>No finished mechanism to lock BTC in and unlock it out under PIPEs. Without it, the shielded ledger is not redeemable bitcoin.</p></article>
+        <article class="factor"><h3>2. Trusted setup</h3><p>Current Groth16 path needs an honest ceremony. Modern Zcash circuits have been pushing toward setups that remove that class of risk.</p></article>
+        <article class="factor"><h3>3. Enforcement model</h3><p>Bitcoin will confirm garbage. Users must trust their indexer/wallet stack the way Zcash users trust consensus rules baked into every full node.</p></article>
+        <article class="factor"><h3>4. Anonymity set &amp; fees</h3><p>Privacy scales with users. Large OP_RETURN payloads cost more than simple spends; thin early usage leaks by metadata even when amounts are hidden.</p></article>
+      </div>
+    </section>
+
+    <section id="sources" class="wrap pad">
+      <p class="kicker steel">Sources</p>
+      <h2>What this page is based on</h2>
+      <ul class="sources">
+        <li><a href="https://www.allocinit.xyz/uploads/shielded-bitcoin.pdf">[[alloc] init] — Shielded Bitcoin whitepaper (PDF, 24 Sep 2026)</a></li>
+        <li><a href="https://www.allocinit.xyz/posts">[[alloc] init] — posts index (Shielded Bitcoin, PIPEs v2)</a></li>
+        <li><a href="https://eprint.iacr.org/2026/186">IACR ePrint 2026/186 — Bitcoin PIPEs v2</a></li>
+        <li><a href="https://bitcoinmagazine.com/technical/alloc-init-releases-shielded-bitcoin-proposal-for-private-bitcoin-transactions">Bitcoin Magazine / Shinobi — proposal explainer</a></li>
+        <li><a href="https://decrypt.co/379280/researchers-publish-zcash-style-design-for-private-bitcoin-transfers">Decrypt — Zcash-style design; peg deferred</a></li>
+        <li><a href="https://cointelegraph.com/news/shielded-bitcoin-zcash-style-privacy-no-soft-fork">Cointelegraph — expert reactions (Ben-Sasson, Zavodil, Dallaire-Demers)</a></li>
+        <li><a href="https://news.bitcoin.com/featured/shielded-bitcoin-proposal-aims-to-bring-privacy-to-bitcoin-l1/">Bitcoin.com — Cypherpunk Technologies reaction; fee and setup notes</a></li>
+        <li><a href="https://cryptoslate.com/bitcoin-researchers-target-privacy-coins-with-zcash-style-shielded-transfers/">CryptoSlate — Bitwise “headwind for privacy coins”</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bar">
+    <div class="wrap row">
+      <a class="wordmark" href="../">Carvking</a>
+      <span class="date">Issue 03 · Shielded Bitcoin · 25 September 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
