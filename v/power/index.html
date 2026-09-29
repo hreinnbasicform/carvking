@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Do Not Be Afraid</title>
+<meta name="description" content="Do Not Be Afraid. A 60-second web film with generative music.">
+<meta name="theme-color" content="#000">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="fear-3.css">
+</head>
+<body>
+<div id="stage"></div>
+<div id="dove"><img src="img/dove-1.webp" alt=""></div>
+<div id="flash"></div>
+<div id="vig"></div>
+<div id="txt" aria-live="polite"><div id="line"></div><div id="ref"></div></div>
+<div id="ctl" hidden><button id="mute" type="button" aria-label="Mute">Sound on</button><button id="remix" type="button">Remix</button></div>
+<div id="ov">
+  <h1>DO NOT BE AFRAID</h1>
+  <button id="go" type="button">&#9654;&nbsp; Tap to begin</button>
+  <p id="load">Loading&hellip;</p>
+  <p class="hint">Sound on &middot; about 60 seconds &middot; music is generated live in your browser</p>
+</div>
+<div id="end" hidden>
+  <p class="endt">DO NOT BE AFRAID</p>
+  <div class="row"><button id="replay" type="button">Replay</button><button id="remix2" type="button">Remix</button></div>
+  <p class="seed">mix #<span id="seedv"></span> &middot; <a id="share" href="">link to this mix</a></p>
+  <a class="back" href="/v/">Back to index</a>
+</div>
+<noscript><p style="color:#aaa;text-align:center;padding:40px">This film needs JavaScript. <a href="/v/" style="color:#aaa">Back to index</a></p></noscript>
+<script src="fear-1.js"></script>
+</body>
+</html>
