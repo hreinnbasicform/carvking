@@ -1,0 +1,87 @@
+# Version 2 · cold open on the whip lying on the floor, the story told as a flashback
+title: Do Not Be Afraid
+subtitle: Version 2 · The Flashback
+tempo: 90
+key: C minor
+music: noir
+intensity: 0.9
+grade: ash
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+@0:00-0:02.5 black cue:drone,0.5
+@0:02.5-0:09 img:whipfloor ken:slow
+vo: It lay still on the stone.
+vo: The tables overturned. The doves gone up into the light.
+@0:09-0:13 img:tables ken:drift
+title: What happened here?
+@0:13-0:15 drop:"Greater love has no one than this" ref:"John 15:13"
+
+# the flashback, in warm colour
+@0:15-0:18 img:light ken:push fade grade:warm cue:wonder,0.8
+sfx: spark
+@0:18-0:24 img:child ken:up grade:warm
+vo: Before anything was made, there was love.
+@0:24-0:29 img:steps ken:down fx:flare grade:warm
+vo: Not a little. Not enough.
++2 title: Overflowing
+@0:29-0:35 img:turn ken:in grade:warm
+vo: For the lost. For the misguided.
+vo: For the ones who would wound Him.
+@0:35-0:39 img:smile ken:still hold:silent grade:warm
+@0:39-0:44 img:childcords ken:in grade:warm cue:wonder,1
+vo: Nothing you do to the body can touch what He holds.
+@0:44-0:50 img:kneel ken:in cue:tense,0.7
+vo: "Whoever causes one of these little ones to stumble..."
+ref: Matthew 18:6
+@0:50-0:56 img:millstone ken:down
+vo: "...better for them to have a millstone hung around their neck."
+@0:56-1:02 img:door ken:push cue:tense,1
+vo: "I never knew you."
+ref: Matthew 7:23
+@1:02-1:04 drop:"The truth will set you free" ref:"John 8:32"
+@1:04-1:08 img:temple ken:right cue:build
+text: Do not bargain with darkness.
+@1:08-1:12 img:take ken:in
+text: Overturn the tables / in your own heart.
+@1:12-1:16 cuts:cords,knot,knot!,eyes,braid,whip cue:war
+text: He made a whip of cords.
+ref: John 2:15
+@1:16-1:21 img:tables ken:slow hit:2 grade:warm
+vo: "...and drove them all out of His Father's house."
+@1:21-1:26 img:doves ken:up fx:flare cue:choir grade:warm
+text: We do not fight people.
+text: We fight for them.
+# back to the present
+@1:26-1:31 img:whipfloor ken:still cue:choir,0.6
+vo: That is why it lay on the stone.
++2.5 title: Love is not weak.
+@1:31-1:33 drop:"Take heart. I have overcome the world." ref:"John 16:33"
+@1:33-1:40 img:weep ken:slow cue:weep
+vo: He wept over the city,
+vo: because it did not recognize the time of God's coming.
+ref: Luke 19:41–44
+@1:40-1:42 img:stone ken:push hit:2
+@1:42-1:47 img:ruins ken:left
+vo: "Not one stone will be left on another."
+ref: Matthew 24:2 · 70 AD
+@1:47-1:52 img:redsea ken:in cue:drone,0.8
+sfx: braam
+vo: "The Lord will fight for you."
+ref: Exodus 14:14
+@1:52-2:04 img:grown ken:in cue:heart
+text: I will not fear.
+text: Fear makes the soul small.
+text: Let it come. / Let it pass through me.
+text: Only He remains.
+@2:04-2:11 img:stand ken:up fx:rise cue:tutti grade:warm
+vo: "Do not fear, for I am with you."
+ref: Isaiah 41:10
+@2:11-2:14 img:dawn ken:push hit:2 grade:warm
+title: So stand.
+@2:14-2:19 img:opendoor ken:in fade cue:outro grade:warm
+text: You were never forced.
+text: You were invited.
+@2:19-2:24 black
+title: Do not be afraid.

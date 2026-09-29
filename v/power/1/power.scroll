@@ -1,0 +1,105 @@
+# Do Not Be Afraid · Version 1 · the canonical five acts
+title: Do Not Be Afraid
+subtitle: Version 1 · Five Acts
+tempo: 117.65
+key: D minor
+music: epic
+intensity: 0.95
+grade: warm
+# music: generative score layered with / replaced by cues from Hreinn\'s soundtrack "home" (audio: lines)
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+# ACT ONE · WONDER
+@0:00-0:02 black cue:none
+sfx: spark
+audio: ../assets/audio/home-wonder-1.mp3 gain -13db until 0:35.8 fade 1.5
+@0:02-0:04.5 img:light ken:push fade
+@0:04.5-0:10 img:child ken:up
+vo: Before anything was made, there was love.
+@0:10-0:15 img:steps ken:down fx:flare
+vo: Not a little. Not enough. Overflowing.
++2.5 title: OVERFLOWING
+@0:15-0:21 img:turn ken:in
+vo: For the lost. For the misguided.
+vo: For the ones who would wound Him.
+@0:21-0:25 img:smile ken:still hold:silent
+@0:25-0:31 img:hands ken:slow fx:dove
+vo: Nothing you do to the body can touch what He holds.
+@0:31-0:36 img:childcords ken:in
++1 title: WHAT HE HOLDS
+@0:36-0:38 drop:"The light shines in the darkness" ref:"John 1:5"
+
+# ACT TWO · WARNING
+@0:38-0:44 img:market ken:left cue:tense,0.7
+vo: But hear what He said about the little ones.
+@0:44-0:50 img:kneel ken:in
+vo: "Whoever causes one of these little ones to stumble..."
+ref: Matthew 18:6
+@0:50-0:56 img:millstone ken:down
+vo: "...better for them to have a millstone hung around their neck,
+vo: and to be drowned in the depths of the sea."
+@0:56-1:00 black hold:silent
+@1:00-1:06 img:door ken:push cue:tense,1
+vo: "Not everyone who says to me, 'Lord, Lord'...
+vo: I never knew you."
+ref: Matthew 7:21–23
+@1:06-1:08 drop:"The truth will set you free" ref:"John 8:32"
+
+# ACT THREE · CORDS
+@1:08-1:12 img:temple ken:right cue:build
+text: Do not bargain with darkness.
+@1:12-1:15.75 img:take ken:in
+text: Drive it out.
+@1:15.75-1:20.5 cuts:cords,knot,knot!,eyes,braid,whip cue:none
+audio: ../assets/audio/home-braid-1.mp3 gain -4db until 1:26 fade 0.6
+text: He made a whip of cords.
+ref: John 2:15
+@1:20.5-1:26 img:tables ken:slow hit:2
+vo: "...and drove them all out of His Father's house."
+@1:26-1:31 img:doves ken:up fx:flare
+audio: ../assets/audio/home-choir-1.mp3 gain -2db until 1:37.8 fade 1.5
+text: We do not fight people.
+text: We fight for them.
+@1:31-1:34 img:whipfloor ken:still
+@1:34-1:38 img:child ken:up
+title: Love is not weak.
+@1:38-1:40 drop:"Take heart. I have overcome the world." ref:"John 16:33"
+
+# ACT FOUR · WITNESS
+@1:40-1:47 img:weep ken:slow cue:weep
+audio: ../assets/audio/home-weep-1.mp3 gain -9db
+vo: He wept over the city,
+vo: because it did not recognize the time of God's coming.
+ref: Luke 19:41–44
+@1:47-1:49 img:stone ken:push hit:2
+@1:49-1:54 img:ruins ken:left
+vo: "Not one stone will be left on another."
+ref: Matthew 24:2 · 70 AD
+@1:54-2:00 img:redsea ken:in cue:drone,0.8
+sfx: braam
+vo: "The Lord will fight for you. You need only to be still."
+ref: Exodus 14:14
+
+# ACT FIVE · VOW
+@2:00-2:14 img:grown ken:in cue:drone,0.5
+audio: ../assets/audio/home-heart-1.mp3 gain 3db until 2:14 fade 0.5
+text: I will not fear.
+text: Fear makes the soul small.
+text: Let it come.
+text: Let it pass through me.
+text: Only He remains.
+@2:14-2:17 img:eyesopen ken:still hold:silent
+@2:17-2:24 img:stand ken:up fx:rise cue:tutti
+vo: "Do not fear, for I am with you...
+vo: I will uphold you with my righteous right hand."
+ref: Isaiah 41:10
+@2:24-2:27 img:dawn ken:push hit:2
+audio: ../assets/audio/home-final-1.mp3 gain -3db
+title: So stand.
+@2:27-2:31 img:opendoor ken:in fade cue:outro
+text: You were never forced.
+text: You were invited.
+@2:31-2:36 black
+title: Do not be afraid.

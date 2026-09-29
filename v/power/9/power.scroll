@@ -1,0 +1,89 @@
+# Version 9 · the fall of the temple as the frame story
+title: Do Not Be Afraid
+subtitle: Version 9 · Not One Stone
+tempo: 98
+key: G minor
+music: epic
+intensity: 0.95
+grade: ember
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+@0:00-0:02 black cue:drone,0.6
+sfx: riser
+@0:02-0:05 img:stone ken:push hit:2
+title: 70 AD
+@0:05-0:12 img:ruins ken:left cue:tense,0.6
+vo: The greatest building in the world, burning.
+vo: "Not one stone will be left on another."
+ref: Matthew 24:2
+@0:12-0:17 img:jerusalem ken:slow cue:drone,0.5
+vo: Forty years earlier, He had warned them. And wept.
+@0:17-0:19 drop:"The light shines in the darkness" ref:"John 1:5"
+@0:19-0:25 img:child ken:up grade:dawn cue:wonder,0.9
+vo: It began with love.
+vo: Before anything was made, there was love.
+@0:25-0:30 img:steps ken:down fx:flare grade:dawn
+vo: Not a little. Not enough.
++2 title: Overflowing
+@0:30-0:36 img:turn ken:in grade:dawn
+vo: For the lost. For the misguided.
+vo: For the ones who would wound Him.
+@0:36-0:40 img:smile ken:still hold:silent grade:dawn
+@0:40-0:46 img:hands ken:slow fx:dove grade:dawn cue:wonder,1
+vo: Nothing you do to the body can touch what He holds.
+@0:46-0:52 img:kneel ken:in cue:tense,0.8
+vo: "Whoever causes one of these little ones to stumble..."
+ref: Matthew 18:6
+@0:52-0:57 img:millstone ken:down
+vo: "...better for them to have a millstone hung around their neck."
+@0:57-1:03 img:door ken:push cue:tense,1
+vo: "I never knew you."
+ref: Matthew 7:23
+@1:03-1:05 drop:"I am the way, the truth and the life" ref:"John 14:6"
+@1:05-1:09 img:temple ken:right cue:build
+vo: In the temple courts, they sold, and bargained, and shut people out.
+@1:09-1:13 img:take ken:in
+text: Our struggle is not / against flesh and blood.
+ref: Ephesians 6:12
+@1:13-1:17 cuts:cords,knot,knot!,eyes,braid,whip cue:war
+text: He made a whip of cords.
+ref: John 2:15
+@1:17-1:22 img:tables ken:slow hit:2
+vo: "...and drove them all out of His Father's house."
+@1:22-1:27 img:doves ken:up fx:flare cue:choir
+text: We do not fight people.
+text: We fight for them.
+@1:27-1:31 img:whipfloor ken:still cue:choir,0.6
+title: Love is not weak.
+@1:31-1:33 drop:"Take heart. I have overcome the world." ref:"John 16:33"
+@1:33-1:41 img:weep ken:slow cue:weep
+vo: He wept over the city,
+vo: because it did not recognize the time of God's coming.
+ref: Luke 19:41–44
+# back to the frame
+@1:41-1:43 img:stone ken:push hit:2
+@1:43-1:49 img:ruins ken:right cue:tense,0.7
+vo: Stones fall. Empires fall.
++3 title: What He holds does not.
+@1:49-1:54 img:redsea ken:in cue:drone,0.8
+sfx: braam
+vo: "The Lord will fight for you."
+ref: Exodus 14:14
+@1:54-2:06 img:grown ken:in cue:heart
+text: I will not fear.
+text: Fear makes the soul small.
+text: Let it come. / Let it pass through me.
+text: Only He remains.
+@2:06-2:13 img:stand ken:up fx:rise cue:tutti grade:dawn
+vo: "Do not fear, for I am with you...
+vo: I will uphold you with my righteous right hand."
+ref: Isaiah 41:10
+@2:13-2:16 img:dawn ken:push hit:2 grade:dawn
+title: So stand.
+@2:16-2:21 img:opendoor ken:in fade cue:outro grade:dawn
+text: You were never forced.
+text: You were invited.
+@2:21-2:26 black
+title: Do not be afraid.

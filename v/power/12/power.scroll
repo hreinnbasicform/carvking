@@ -1,0 +1,122 @@
+# Version 12 · the director's cut: longest, both silent holds, every drop
+title: Do Not Be Afraid
+subtitle: Version 12 · Director's Cut
+tempo: 117.65
+key: D minor
+music: epic
+intensity: 1
+grade: warm
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+# ACT ONE · WONDER
+@0:00-0:02.5 black cue:none
+sfx: spark
+audio: ../assets/audio/home-wonder-1.mp3 gain -13db until 0:36.8 fade 1.5
+@0:02.5-0:05 img:light ken:push fade
+@0:05-0:11 img:child ken:up
+vo: Before anything was made, there was love.
+@0:11-0:16 img:steps ken:down fx:flare
+vo: Not a little. Not enough. Overflowing.
++2.5 title: Overflowing
+@0:16-0:22 img:turn ken:in
+vo: For the lost. For the misguided.
+vo: For the ones who would wound Him.
+@0:22-0:26 img:smile ken:still hold:silent
+@0:26-0:32 img:hands ken:slow fx:dove
+vo: Nothing you do to the body can touch what He holds.
+@0:32-0:37 img:childcords ken:in
++1 title: What He holds
+@0:37-0:39 drop:"The light shines in the darkness" ref:"John 1:5"
+sfx: ../assets/audio/home-punch-1.mp3 gain -4db
+
+# ACT TWO · WARNING
+@0:39-0:45 img:market ken:left cue:tense,0.6
+vo: But hear what He said about the little ones.
+@0:45-0:51 img:kneel ken:in
+audio: ../assets/audio/home-build-1.mp3 gain -2db until 1:10.7 fade 0.3
+vo: "Whoever causes one of these little ones to stumble..."
+ref: Matthew 18:6
+@0:51-0:57 img:millstone ken:down
+vo: "...better for them to have a millstone hung around their neck,
+vo: and to be drowned in the depths of the sea."
+@0:57-1:01 img:crowd ken:drift
+text: We love people.
+text: We protect them.
+@1:01-1:05 black hold:silent
+@1:05-1:11 img:door ken:push cue:tense,0.7
+vo: "Not everyone who says to me, 'Lord, Lord'...
+vo: I never knew you."
+ref: Matthew 7:21–23
+@1:11-1:13 drop:"The truth will set you free" ref:"John 8:32"
+sfx: ../assets/audio/home-punch-1.mp3 gain -4db
+
+# ACT THREE · CORDS
+@1:13-1:17 img:temple ken:right cue:build
+text: Do not bargain with darkness.
+@1:17-1:21 img:take ken:in
+text: Drive it out.
+@1:21-1:25.5 cuts:cords,knot,knot!,eyes,braid,whip cue:none
+audio: ../assets/audio/home-braid-1.mp3 gain -4db until 1:35 fade 0.5
+text: He made a whip of cords.
+ref: John 2:15
+@1:25.5-1:31 img:tables ken:slow hit:2
+vo: "...and drove them all out of His Father's house."
+@1:31-1:35 img:courage ken:push
+text: Our struggle is not / against flesh and blood.
+ref: Ephesians 6:12
+@1:35-1:40 img:doves ken:up fx:flare
+audio: ../assets/audio/home-choir-1.mp3 gain -2db until 1:46.8 fade 1.5
+text: We do not fight people.
+text: We fight for them.
+@1:40-1:43 img:whipfloor ken:still
+@1:43-1:47 img:child ken:up
+title: Love is not weak.
+@1:47-1:49 drop:"Take heart. I have overcome the world." ref:"John 16:33"
+sfx: ../assets/audio/home-punch-1.mp3 gain -4db
+
+# ACT FOUR · WITNESS
+@1:49-1:56 img:weep ken:slow cue:weep
+audio: ../assets/audio/home-weep-1.mp3 gain -9db
+vo: He wept over the city,
+vo: because it did not recognize the time of God's coming.
+ref: Luke 19:41–44
+@1:56-1:58 img:stone ken:push hit:2
+@1:58-2:03 img:ruins ken:left
+vo: "Not one stone will be left on another."
+ref: Matthew 24:2 · 70 AD
+@2:03-2:09 img:redsea ken:in cue:drone,0.8
+sfx: braam
+vo: "The Lord will fight for you. You need only to be still."
+ref: Exodus 14:14
+@2:09-2:11 drop:"Greater love has no one than this" ref:"John 15:13"
+sfx: ../assets/audio/home-punch-1.mp3 gain -4db
+
+# ACT FIVE · VOW
+@2:11-2:25 img:grown ken:in cue:drone,0.5
+audio: ../assets/audio/home-heart-1.mp3 gain 3db until 2:25 fade 0.5
+text: I will not fear.
+text: Fear makes the soul small.
+text: Let it come.
+text: Let it pass through me.
+text: Only He remains.
+@2:25-2:29 img:eyesopen ken:still hold:silent
+@2:29-2:36 img:stand ken:up fx:rise cue:none
+audio: ../assets/audio/home-tutti-1.mp3 gain -3db until 2:36 fade 0.3
+vo: "Do not fear, for I am with you...
+vo: I will uphold you with my righteous right hand."
+ref: Isaiah 41:10
+@2:36-2:39 img:dawn ken:push hit:2
+audio: ../assets/audio/home-final-1.mp3 gain -3db
+title: So stand.
+@2:39-2:41 drop:"It is finished." ref:"John 19:30"
+sfx: ../assets/audio/home-punch-1.mp3 gain -4db
+@2:41-2:47 img:opendoor ken:in fade cue:outro
+text: You were never forced.
+text: You were invited.
+@2:47-2:50 black
+title: Choose life.
+ref: Deuteronomy 30:19
+@2:50-2:55 black
+title: Do not be afraid.

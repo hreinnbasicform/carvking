@@ -1,0 +1,96 @@
+# Version 7 · fast and relentless (the 808 flavour)
+title: Do Not Be Afraid
+subtitle: Version 7 · Relentless
+tempo: 129
+key: C minor
+music: relentless
+intensity: 1
+grade: ember
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+@0:00-0:01.5 black cue:build,0.6
+@0:01.5-0:04 img:light ken:push hit:1
+title: Overflowing
+@0:04-0:08 img:child ken:up cue:tense,0.7
+vo: Before anything was made, there was love.
+@0:08-0:11 img:steps ken:push
+text: Not a little.
+text: Not enough.
+@0:11-0:15 img:turn ken:in
+vo: For the lost. For the misguided. For the ones who would wound Him.
+@0:15-0:18 img:smile ken:still hold:silent
+@0:18-0:22 img:hands ken:slow fx:dove cue:tense,0.9
+title: What He holds.
+@0:22-0:23.5 drop:"Light." ref:"John 1:5"
+@0:23.5-0:28 img:kneel ken:in cue:war,0.7
+vo: "Whoever causes one of these little ones to stumble..."
+ref: Matthew 18:6
+@0:28-0:32 img:millstone ken:down
+text: A millstone. / The depths of the sea.
+@0:32-0:36 img:door ken:push
+vo: "I never knew you."
+ref: Matthew 7:23
+@0:36-0:37.5 drop:"Truth." ref:"John 8:32"
+@0:37.5-0:41 img:market ken:left cue:tense,1
+text: Our struggle is not / against flesh and blood.
+ref: Ephesians 6:12
+@0:41-0:44 img:temple ken:right cue:build
+text: Do not bargain with darkness.
+@0:44-0:46 img:take ken:push
+title: Drive it out.
+@0:46-0:49 cuts:cords,knot,knot!,eyes,braid,whip cue:war
+text: He made a whip of cords.
+ref: John 2:15
+@0:49-0:53 img:tables ken:push hit:2
+text: Overturn the tables / in your own heart.
+@0:53-0:57 img:doves ken:up fx:flare cue:choir
+text: We do not fight people.
+text: We fight for them.
+@0:57-1:00 img:whipfloor ken:still
+title: Love is not weak.
+@1:00-1:01.5 drop:"Overcome." ref:"John 16:33"
+@1:01.5-1:06 img:weep ken:slow cue:weep
+vo: He wept over the city that did not recognize the time of God's coming.
+ref: Luke 19:41–44
+@1:06-1:08 img:stone ken:push hit:2 cue:war,0.8
+@1:08-1:12 img:ruins ken:left
+text: Not one stone / left on another.
+ref: Matthew 24:2 · 70 AD
+@1:12-1:16 img:redsea ken:in
+text: The Lord will fight for you.
+ref: Exodus 14:14
+@1:16-1:17.5 drop:"Love." ref:"John 15:13"
+@1:17.5-1:28 img:grown ken:in cue:heart
+text: I will not fear.
+text: Fear makes the soul small.
+text: Let it come.
+text: Let it pass through me.
+text: Only He remains.
+@1:28-1:31 img:eyesopen ken:still hold:silent
+@1:31-1:37 img:stand ken:up fx:rise cue:tutti
+vo: "Do not fear, for I am with you. I will uphold you with my righteous right hand."
+ref: Isaiah 41:10
+@1:37-1:40 img:crowd ken:drift cue:war
+text: We love people.
+@1:40-1:43 img:kneel ken:push
+text: We protect them.
+@1:43-1:47 img:turn ken:in
+text: We introduce them / to Jesus Christ.
+@1:47-1:48.5 drop:"The Way." ref:"John 14:6"
+@1:48.5-1:53 cuts:light,doves,rise,dawn cue:tutti
+title: Do not bargain with darkness.
+@1:53-1:57 img:courage ken:push
+title: Drive it out.
+@1:57-2:01 img:beauty ken:up
+text: Do not be overcome by evil,
+text: overcome evil with good.
+ref: Romans 12:21
+@2:01-2:05 img:dawn ken:push hit:2
+title: So stand.
+@2:05-2:12 img:opendoor ken:in fade cue:outro
+text: You were never forced.
+text: You were invited.
+@2:12-2:18 black
+title: Do not be afraid.

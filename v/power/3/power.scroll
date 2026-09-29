@@ -1,0 +1,82 @@
+# Version 3 · the vow first, then why
+title: Do Not Be Afraid
+subtitle: Version 3 · The Vow
+tempo: 84
+key: E minor
+music: solemn
+intensity: 0.9
+grade: dawn
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+@0:00-0:03 black cue:drone,0.4
+audio: ../assets/audio/home-heart-1.mp3 gain 3db until 0:20 fade 0.5
+@0:03-0:20 img:grown ken:in
+text: I will not fear.
+text: Fear makes the soul small.
+text: Let it come.
+text: Let it pass through me.
+text: Only He remains.
+@0:20-0:23 img:eyes ken:push hit:2
+title: Why?
+@0:23-0:25 drop:"The light shines in the darkness" ref:"John 1:5"
+@0:25-0:31 img:child ken:up cue:wonder,0.8
+vo: Because before anything was made, there was love.
+@0:31-0:36 img:steps ken:down fx:flare
+vo: Not a little. Not enough.
++2 title: Overflowing
+@0:36-0:42 img:turn ken:in
+vo: For the lost. For the misguided.
+vo: Even for the ones who would wound Him.
+@0:42-0:48 img:hands ken:slow fx:dove cue:wonder,1
+vo: Nothing you do to the body can touch what He holds.
+@0:48-0:54 img:kneel ken:in cue:tense,0.7
+text: We love people.
+text: We protect the little ones.
+@0:54-1:00 img:millstone ken:down
+vo: "Better for them to have a millstone hung around their neck..."
+ref: Matthew 18:6
+@1:00-1:06 img:door ken:push cue:tense,1
+vo: "I never knew you."
+ref: Matthew 7:23
+@1:06-1:08 drop:"I am the way, the truth and the life" ref:"John 14:6"
+@1:08-1:12 img:temple ken:right cue:build
+text: Do not bargain with darkness.
+@1:12-1:16 img:take ken:in
+text: Drive it out.
+@1:16-1:20.5 cuts:cords,knot,knot!,eyes,braid,whip cue:war
+text: He made a whip of cords.
+ref: John 2:15
+@1:20.5-1:26 img:tables ken:slow hit:2
+vo: "...and drove them all out of His Father's house."
+@1:26-1:31 img:doves ken:up fx:flare cue:none
+audio: ../assets/audio/home-choir-1.mp3 gain -2db until 1:35.8 fade 1.5
+text: We do not fight people.
+text: We fight for them.
+@1:31-1:36 img:whipfloor ken:still
++1 title: Love is not weak.
+@1:36-1:38 drop:"Take heart. I have overcome the world." ref:"John 16:33"
+@1:38-1:45 img:weep ken:slow cue:weep
+vo: He wept over the city that did not recognize the time of God's coming.
+ref: Luke 19:41–44
+@1:45-1:50 img:ruins ken:left hit:2
+vo: "Not one stone will be left on another."
+ref: Matthew 24:2 · 70 AD
+@1:50-1:56 img:redsea ken:in cue:drone,0.8
+sfx: braam
+vo: "The Lord will fight for you. You need only to be still."
+ref: Exodus 14:14
+@1:56-2:00 img:eyesopen ken:still hold:silent
+@2:00-2:07 img:stand ken:up fx:rise cue:tutti
+vo: "Do not fear, for I am with you...
+vo: I will uphold you with my righteous right hand."
+ref: Isaiah 41:10
+@2:07-2:10 img:dawn ken:push hit:2
+audio: ../assets/audio/home-final-1.mp3 gain -3db
+title: So stand.
+@2:10-2:15 img:opendoor ken:in fade cue:outro
+text: You were never forced.
+text: You were invited.
+@2:15-2:21 black
+title: Do not be afraid.

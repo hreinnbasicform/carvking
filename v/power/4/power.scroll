@@ -1,0 +1,84 @@
+# Version 4 · through the child's eyes (first person)
+title: Do Not Be Afraid
+subtitle: Version 4 · Through a Child's Eyes
+tempo: 100
+key: A dorian
+music: child
+intensity: 0.85
+grade: gold
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+@0:00-0:02 black cue:wonder,0.6
+sfx: spark
+@0:02-0:08 img:child ken:up fade
+vo: I was seven. The morning was gold.
+@0:08-0:13 img:steps ken:down fx:flare
+vo: The light came down the steps like water.
++2.5 title: Overflowing
+@0:13-0:19 img:turn ken:in cue:wonder,0.9
+vo: He turned and saw me.
+vo: He looked at everyone that way. Even the ones who hated Him.
+@0:19-0:23 img:smile ken:still hold:silent
+@0:23-0:29 img:hands ken:slow fx:dove cue:wonder,1
+vo: My hand was so small in His.
+vo: Nothing can touch what He holds.
+@0:29-0:34 img:childcords ken:in
+vo: I was holding some old cords. I didn't know what they were for.
+@0:34-0:36 drop:"For God so loved the world" ref:"John 3:16"
+@0:36-0:42 img:market ken:left cue:tense,0.6
+vo: The grown-ups talked in the shadows.
+@0:42-0:49 img:kneel ken:in
+vo: He knelt down, put His hand on my head, and said:
+vo: "Whoever causes one of these little ones to stumble..."
+ref: Matthew 18:6
+@0:49-0:54 img:millstone ken:down cue:tense,0.9
+vo: His voice was not angry at me. It was protecting me.
+@0:54-0:56 drop:"The truth will set you free" ref:"John 8:32"
+@0:56-1:01 img:temple ken:right cue:build
+vo: Then we went up to His Father's house. It was full of noise.
+@1:01-1:05 img:take ken:in
+vo: He took the cords from my hands.
+@1:05-1:09 cuts:cords,knot,knot!,braid cue:war
+text: I watched Him braid them.
+@1:09-1:12 img:whip ken:push hit:2
+text: He made a whip of cords.
+ref: John 2:15
+@1:12-1:17 img:tables ken:slow
+vo: The tables went over. The coins rang on the stone.
+@1:17-1:22 img:doves ken:up fx:flare cue:choir
+vo: And the doves went free.
++2 title: I was not afraid.
+@1:22-1:27 img:whipfloor ken:still cue:choir,0.6
+text: He did not fight people.
+text: He fought for them.
+@1:27-1:30 img:child ken:up
+title: Love is not weak.
+@1:30-1:32 drop:"Take heart. I have overcome the world." ref:"John 16:33"
+@1:32-1:39 img:weep ken:slow cue:weep
+vo: Later I saw Him crying over the city.
+vo: He loved it, and it did not know Him.
+ref: Luke 19:41–44
+@1:39-1:44 img:ruins ken:left hit:2
+vo: "Not one stone will be left on another," He said. It happened.
+ref: Matthew 24:2 · 70 AD
+@1:44-1:50 img:redsea ken:in cue:drone,0.8
+sfx: braam
+vo: My grandmother told me: "The Lord will fight for you."
+ref: Exodus 14:14
+@1:50-2:02 img:grown ken:in cue:heart
+text: Now I am grown.
+text: I will not fear.
+text: Let it come. / Let it pass through me.
+text: Only He remains.
+@2:02-2:09 img:stand ken:up fx:rise cue:tutti
+vo: "Do not fear, for I am with you."
+ref: Isaiah 41:10
+@2:09-2:12 img:dawn ken:push hit:2
+title: So stand.
+@2:12-2:17 img:opendoor ken:in fade cue:outro
+vo: He never forced me. He invited me.
++2.5 text: He is inviting you.
+@2:17-2:22 black
+title: Do not be afraid.

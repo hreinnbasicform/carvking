@@ -1,0 +1,83 @@
+# Version 8 · opens on the closed door in darkness, then the love
+title: Do Not Be Afraid
+subtitle: Version 8 · The Door
+tempo: 92
+key: B minor
+music: noir
+intensity: 0.95
+grade: night
+images: ../assets/img/{}-2.webp
+endnote: "Here I am! I stand at the door and knock."
+endref: Revelation 3:20
+
+@0:00-0:03 black hold:silent
+@0:03-0:10 img:door ken:push cue:drone,0.6
+vo: Behind a closed door, fear grows in the dark.
+vo: It tells you that you are alone.
+@0:10-0:14 img:door ken:still cue:tense,0.6
+title: That is a lie.
+@0:14-0:16 drop:"The light shines in the darkness" ref:"John 1:5"
+@0:16-0:19 img:light ken:push fade grade:gold cue:wonder,0.8
+sfx: spark
+@0:19-0:25 img:child ken:up grade:gold
+vo: Before anything was made, there was love.
+@0:25-0:30 img:steps ken:down fx:flare grade:gold
+vo: Not a little. Not enough.
++2 title: Overflowing
+@0:30-0:36 img:turn ken:in grade:gold
+vo: For the lost. For the misguided.
+vo: For the ones who would wound Him.
+@0:36-0:40 img:smile ken:still hold:silent grade:gold
+@0:40-0:46 img:hands ken:slow fx:dove grade:gold cue:wonder,1
+vo: Nothing you do to the body can touch what He holds.
+@0:46-0:52 img:kneel ken:in cue:tense,0.8
+vo: "Whoever causes one of these little ones to stumble..."
+ref: Matthew 18:6
+@0:52-0:57 img:millstone ken:down
+vo: "...better for them to have a millstone hung around their neck."
+@0:57-1:03 img:door ken:push cue:tense,1
+vo: "Not everyone who says 'Lord, Lord'... I never knew you."
+ref: Matthew 7:21–23
+@1:03-1:05 drop:"The truth will set you free" ref:"John 8:32"
+@1:05-1:09 img:temple ken:right cue:build
+text: Do not bargain with darkness.
+@1:09-1:13 img:take ken:in
+text: Drive it out.
+@1:13-1:17 cuts:cords,knot,knot!,eyes,braid,whip cue:war
+text: He made a whip of cords.
+ref: John 2:15
+@1:17-1:22 img:tables ken:slow hit:2
+vo: "...and drove them all out of His Father's house."
+@1:22-1:27 img:doves ken:up fx:flare cue:choir
+text: We do not fight people.
+text: We fight for them.
+@1:27-1:31 img:whipfloor ken:still cue:choir,0.6
+title: Love is not weak.
+@1:31-1:33 drop:"Take heart. I have overcome the world." ref:"John 16:33"
+@1:33-1:40 img:weep ken:slow cue:weep
+vo: He wept over the city,
+vo: because it did not recognize the time of God's coming.
+ref: Luke 19:41–44
+@1:40-1:45 img:ruins ken:left hit:2
+vo: "Not one stone will be left on another."
+ref: Matthew 24:2 · 70 AD
+@1:45-1:50 img:redsea ken:in cue:drone,0.8
+sfx: braam
+vo: "The Lord will fight for you."
+ref: Exodus 14:14
+@1:50-2:02 img:grown ken:in cue:heart
+text: I will not fear.
+text: Fear makes the soul small.
+text: Let it come. / Let it pass through me.
+text: Only He remains.
+@2:02-2:08 img:stand ken:up fx:rise cue:tutti grade:gold
+vo: "Do not fear, for I am with you."
+ref: Isaiah 41:10
+@2:08-2:11 img:dawn ken:push hit:2 grade:gold
+title: So stand.
+@2:11-2:19 img:opendoor ken:in fade cue:outro grade:gold
+vo: "Here I am! I stand at the door and knock."
+ref: Revelation 3:20
++4 text: The door opens / from the inside.
+@2:19-2:24 black
+title: Do not be afraid.
