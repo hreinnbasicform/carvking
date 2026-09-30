@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The 2026 Midterms: Money, Musk, and the Fight for Congress — Carvking</title>
+  <meta name="description" content="A record of the 2026 US midterm cycle as of late September 2026: Elon Musk and America PAC, the megadonors, the Republican cash edge, the Democratic polling edge, the impeachment question, and what prediction markets say." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Carvking" />
+  <meta property="og:title" content="The 2026 Midterms: Money, Musk, and the Fight for Congress" />
+  <meta property="og:description" content="Republicans hold a massive cash advantage. Democrats lead the polls and the prediction markets. A record of the cycle as of September 30, 2026." />
+  <meta property="og:url" content="https://carvking.com/midterm/" />
+  <meta property="og:image" content="https://carvking.com/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    /* Page-local rules for /midterm/ (kept inline so the shared style.css is untouched). */
+    section.wrap.pad { padding-left: 1.25rem; padding-right: 1.25rem; }
+    .prose { max-width: 46rem; }
+    .prose p, .prose li { font-size: 1.05rem; }
+    .prose h3 { font-size: 1.3rem; margin: 2rem 0 0.5rem; }
+    .updated { font-size: 0.85rem; color: var(--subtle); margin-top: 1rem; }
+    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0 0.5rem; border: 1px solid var(--rule); border-radius: 0.75rem; background: var(--surface); }
+    .data { width: 100%; border-collapse: collapse; font-size: 0.95rem; min-width: 50rem; }
+    .data.narrow { min-width: 28rem; }
+    .data.wide { min-width: 58rem; }
+    .data caption { text-align: left; padding: 0.85rem 1rem 0.25rem; font-family: var(--display); font-weight: 600; font-size: 1.05rem; }
+    .data th, .data td { text-align: left; vertical-align: top; padding: 0.65rem 1rem; border-top: 1px solid var(--rule); }
+    .data thead th { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); background: color-mix(in oklab, var(--bg) 60%, var(--surface)); }
+    .data td.num { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 600; }
+    .table-note { font-size: 0.85rem; color: var(--subtle); margin: 0.25rem 0 1.5rem; }
+    .party { display: inline-block; min-width: 1.6rem; text-align: center; border-radius: 999px; padding: 0.05rem 0.45rem; font-size: 0.72rem; font-weight: 700; }
+    .party.r { background: var(--misleading-bg); color: var(--misleading); }
+    .party.d { background: color-mix(in oklab, var(--steel) 14%, var(--surface)); color: var(--steel); }
+    .party.x { background: var(--partly-bg); color: var(--partly); }
+    blockquote.q { margin: 1rem 0; padding: 1rem 1.25rem; background: var(--surface); border: 1px solid var(--rule); border-left: 3px solid var(--steel); border-radius: 0.5rem; }
+    blockquote.q.gop { border-left-color: var(--misleading); }
+    blockquote.q p { margin: 0 0 0.5rem; font-family: var(--display); font-size: 1.1rem; line-height: 1.4; }
+    blockquote.q footer { font-size: 0.85rem; color: var(--muted); }
+    .posts { list-style: none; padding: 0; margin: 1rem 0; }
+    .posts li { border-top: 1px solid var(--rule); padding: 0.85rem 0; }
+    .posts li:last-child { border-bottom: 1px solid var(--rule); }
+    .posts .when { display: block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--steel); }
+    .opinion { border: 1px dashed var(--steel); background: color-mix(in oklab, var(--steel) 6%, var(--surface)); border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+    .opinion h3:first-of-type { margin-top: 0.5rem; }
+    .embeds { display: grid; gap: 1.5rem; margin: 1.25rem 0; }
+    @media (min-width: 1100px) { .embeds { grid-template-columns: 1fr 1fr; } .embeds figure:first-child { grid-column: 1 / -1; } }
+    .embeds figure { margin: 0; }
+    .embeds figcaption { text-align: center; }
+    .dagger-note { font-size: 0.9rem; color: var(--muted); }
+    .sources li { padding: 0.85rem 0; }
+    .sources li a { display: inline; padding: 0; }
+    .tiles { display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); margin: 1.25rem 0; }
+    .tile .kicker { color: var(--subtle); }
+  </style>
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap row">
+      <a class="wordmark" href="../">Carvking</a>
+      <span class="kicker hide-sm">Midterms 2026</span>
+      <span class="date">Last updated September 30, 2026</span>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Sections">
+    <div class="wrap">
+      <a href="../">All posts</a>
+      <a href="#overview">Overview</a>
+      <a href="#musk">Musk</a>
+      <a href="#megadonors">Megadonors</a>
+      <a href="#democrats">Democrats</a>
+      <a href="#impeachment">Impeachment</a>
+      <a href="#markets">Markets</a>
+      <a href="#closing">Closing</a>
+      <a href="#sources">Sources</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="overview" class="wrap pad">
+      <p class="kicker steel">Carvking · Record · As of late September 2026</p>
+      <h1>The 2026 Midterms: Money, Musk, and the Fight for Congress</h1>
+      <p class="lede">On November 3, 2026, Americans vote in the midterm elections. Republicans are defending their majorities in both the House and the Senate. Democrats are favored in the polls, but Republicans hold a massive cash advantage.</p>
+      <div class="prose">
+        <p>This page is a documentary record of the cycle as it stood in the final days of September 2026: who is paying for it, what Elon Musk is saying and spending, where the Democratic money comes from, how the impeachment debate is cutting, and what real-money prediction markets expect. Figures are drawn from FEC filings and press reporting; estimates are labelled as estimates.</p>
+      </div>
+      <div class="tiles">
+        <div class="tile"><span class="kicker">Election Day</span><p>Tuesday, Nov 3, 2026</p></div>
+        <div class="tile"><span class="kicker">GOP national committees, cash</span><p>~$233.4M vs $130.4M</p></div>
+        <div class="tile"><span class="kicker">Ad reservations to Election Day</span><p>~$888M (R) vs ~$666M (D)</p></div>
+        <div class="tile"><span class="kicker">Generic ballot</span><p>Democrats +~7†</p></div>
+      </div>
+      <p class="updated">Last updated September 30, 2026. Items marked † could not be independently confirmed at publication.</p>
+    </section>
+
+    <section id="musk" class="wrap pad">
+      <p class="kicker steel">Section 2</p>
+      <h2>Elon Musk's role</h2>
+      <div class="prose">
+        <p>Musk is both the cycle's loudest online voice on election integrity and one of its largest individual funders. His posts on X in the week of September 23–30, 2026 returned repeatedly to voter ID, immigration and noncitizen voting.</p>
+        <h3>What he posted, September 23–30</h3>
+        <ul class="posts">
+          <li><span class="when">Sept 27</span>“In New York and California, they have made it illegal for officials to ask for or for you to show your voter ID! They made election fraud mandatory.” <em>Posted in response to his mother Maye Musk's account of her experience at the polls.</em></li>
+          <li><span class="when">Sept 26 †</span>“This is exactly what they will do. After that, America will become a one-party state.” <em>Quoting an RNC Research clip of Rep. Tom Suozzi on mass amnesty.</em></li>
+          <li><span class="when">Sept 25</span>“Even this alone makes @DOGE worth it.” <em>On the Supreme Court greenlighting use of the federal citizenship database for voter verification.</em></li>
+          <li><span class="when">Sept 23 †</span>“Democrats, which is why they push for open borders and noncitizen voting! Incentives explain behavior.”</li>
+        </ul>
+
+        <h3>America PAC: the field program</h3>
+        <p>On July 30, the New York Times reported that Musk had authorized America PAC to spend $100–120 million on a field program, led by his adviser Chris Young. The plan centres on door-knocking, digital and direct mail aimed at low-propensity conservative voters: people who lean Republican but often skip midterms.</p>
+        <ul>
+          <li><strong>Senate targets:</strong> Alaska, Iowa, Maine, Michigan and Ohio, with North Carolina, Georgia and Texas also under consideration.</li>
+          <li><strong>House races:</strong> California, Wisconsin and Washington.</li>
+          <li><strong>Allies:</strong> coordinating with Americans for Prosperity and Sentinel Action Fund.†</li>
+        </ul>
+
+        <h3>The money trail</h3>
+        <p>America PAC reported roughly <strong>$274,000</strong> in cash on hand at June 30 in its FEC quarterly report. It had raised $50.3 million for the cycle and spent it down. September FEC filings then showed a sharp ramp-up: about <strong>$20 million</strong> deployed.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="data narrow">
+          <caption>America PAC spending disclosed in September 2026 FEC filings</caption>
+          <thead><tr><th>Race</th><th>Matchup</th><th>Spent</th></tr></thead>
+          <tbody>
+            <tr><td>Texas Senate</td><td>Paxton (R) vs Talarico (D)</td><td class="num">$6.3M</td></tr>
+            <tr><td>Ohio Senate</td><td>Husted (R) vs Brown (D)</td><td class="num">$3.7M</td></tr>
+            <tr><td>Michigan Senate</td><td>Rogers (R) vs El-Sayed (D)</td><td class="num">$3.4M</td></tr>
+            <tr><td><strong>All Senate races</strong></td><td>Including the three above</td><td class="num">$16.6M</td></tr>
+            <tr><td><strong>House</strong></td><td>30+ districts</td><td class="num">$3.1M</td></tr>
+            <tr><td><strong>Total, September</strong></td><td></td><td class="num">~$20M</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">Source: FEC filings as reported by Bloomberg. America PAC's Q3 FEC report is due October 15.</p>
+      <div class="prose">
+        <p><strong>Estimate:</strong> if the field program runs at the authorized scale, Musk-linked spending is likely to total <strong>$100–150 million by Election Day</strong>. This is an estimate, not a disclosed figure; the October 15 filing will be the first hard test of it.</p>
+      </div>
+    </section>
+
+    <section id="megadonors" class="wrap pad">
+      <p class="kicker steel">Section 3</p>
+      <h2>The megadonors</h2>
+      <div class="prose">
+        <p>The biggest individual donors to the 2026 cycle lean heavily Republican. The top 50 donors have given about $1.78 billion combined,† and 16 of the top 20 back Republicans.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="data">
+          <caption>Largest donors of the 2026 cycle (approximate, as of late September 2026)</caption>
+          <thead><tr><th>Donor</th><th>Party</th><th>Total given (approx.)</th><th>Notable recipients</th></tr></thead>
+          <tbody>
+            <tr><td>Soros family</td><td><span class="party d">D</span></td><td class="num">$103.3M</td><td>Geosor $62M and Fund for Democracy $50M to Democracy PAC; $9M Senate Majority PAC†</td></tr>
+            <tr><td>Jeff &amp; Janine Yass</td><td><span class="party r">R</span></td><td class="num">~$95.3M</td><td>$17.5M School Freedom Fund; $16.5M Club for Growth Action</td></tr>
+            <tr><td>Marc Andreessen &amp; Ben Horowitz</td><td><span class="party r">R</span></td><td class="num">~$91.3M</td><td>$18M MAGA Inc.; $12.5M Leading The Future†</td></tr>
+            <tr><td>Elon Musk</td><td><span class="party r">R</span></td><td class="num">~$90.5M</td><td>America PAC $50M+; $10M each to Congressional Leadership Fund and Senate Leadership Fund; $10M Fight for Kentucky; $5M to Vivek Ramaswamy's Ohio governor PAC†</td></tr>
+            <tr><td>Richard &amp; Elizabeth Uihlein</td><td><span class="party r">R</span></td><td class="num">~$70M</td><td>$57.7M Restoration of America PAC</td></tr>
+            <tr><td>Miriam Adelson</td><td><span class="party r">R</span></td><td class="num">~$67.6M</td><td>$30M Senate Leadership Fund; $25M MAGA Inc.; $10M Congressional Leadership Fund</td></tr>
+            <tr><td>Winklevoss brothers</td><td><span class="party r">R</span></td><td class="num">~$52.6M</td><td>—</td></tr>
+            <tr><td>Ken Griffin</td><td><span class="party r">R</span></td><td class="num">~$32.5M</td><td>$10M Senate Leadership Fund; $5M Congressional Leadership Fund</td></tr>
+            <tr><td>Stephen Schwarzman</td><td><span class="party r">R</span></td><td class="num">~$31.8M</td><td>—</td></tr>
+            <tr><td>Greg Brockman</td><td><span class="party x">—</span></td><td class="num">~$25M</td><td>—</td></tr>
+            <tr><td>Crypto industry</td><td><span class="party x">—</span></td><td class="num">~$88.2M†</td><td>~$88.2M to MAGA Inc. from 20 crypto donors; Coinbase $57.7M†</td></tr>
+            <tr><td>AI / data-center donors</td><td><span class="party x">—</span></td><td class="num">$37M†</td><td>$37M to MAGA Inc.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">Totals are approximate and depend on how each tally groups spouses, family members and affiliated entities; different outlets report somewhat different figures for the same donor. “—” in the party column means no single party label is assigned here.</p>
+
+      <h3>The Republican cash position</h3>
+      <div class="prose">
+        <ul>
+          <li>Republican national committees entered September with about <strong>$233.4M</strong> in cash, against <strong>$130.4M</strong> for their Democratic counterparts.</li>
+          <li>MAGA Inc., the main pro-Trump super PAC, had <strong>$415.8M</strong> at the end of August.</li>
+          <li>No Going Back PAC and Safety &amp; Affordability PAC (both Trump-linked) have reserved <strong>$126M+</strong> in ads; combined Trump-linked groups have reserved about $168M.†</li>
+          <li>Republicans have reserved about <strong>$888M</strong> in ads through Election Day, against about <strong>$666M</strong> for Democrats (AdImpact).</li>
+          <li>Republican super PACs have outspent Democrats about <strong>2:1 since Labor Day</strong>: $309.7M vs $174.2M.</li>
+        </ul>
+      </div>
+      <div class="table-scroll">
+        <table class="data narrow">
+          <caption>Cash positions</caption>
+          <thead><tr><th>Committee</th><th>Cash</th><th>As of</th></tr></thead>
+          <tbody>
+            <tr><td>Republican national committees</td><td class="num">$233.4M</td><td>Entering September</td></tr>
+            <tr><td>Democratic national committees</td><td class="num">$130.4M</td><td>Entering September</td></tr>
+            <tr><td>MAGA Inc.</td><td class="num">$415.8M</td><td>End of August</td></tr>
+            <tr><td>Senate Majority PAC</td><td class="num">~$126M</td><td>End of June</td></tr>
+            <tr><td>America PAC</td><td class="num">~$274K</td><td>June 30</td></tr>
+            <tr><td>DNC</td><td class="num">$16.9M cash / $17.6M debt</td><td>End of August</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">Sources: FEC filings, as analyzed by CNBC and others. Committee cash is a snapshot; super PAC reservations and spending continue to move daily.</p>
+    </section>
+
+    <section id="democrats" class="wrap pad">
+      <p class="kicker steel">Section 4</p>
+      <h2>The Democratic side</h2>
+      <div class="prose">
+        <p>Democrats trail badly in party and super PAC cash but have a strong candidate-fundraising and small-dollar base, and they lead in the polls.</p>
+        <h3>Where the big Democratic money comes from</h3>
+        <ul>
+          <li><strong>The Soros family</strong> is the single largest donor of the cycle on either side at $103.3M, mostly routed through Democracy PAC (see table above).</li>
+          <li><strong>Senate Majority PAC</strong> held about $126M cash at the end of June. With its affiliated nonprofit Majority Forward it raised $147M in Q2 2026, $326M combined for the cycle. It has booked $54M more in TV, targeting Ohio ($60M total), Iowa ($30.5M), North Carolina ($42.5M) and Alaska ($11M).†</li>
+          <li><strong>House Majority Forward / Majority Forward</strong> nonprofits: about $61–62M each.†</li>
+          <li><strong>Reid Hoffman</strong>: about $15M via Lone Star Rising PAC for James Talarico in Texas.†</li>
+          <li><strong>JB Pritzker</strong>: about 80% of the funding for a super PAC spending about $9M for Juliana Stratton in Illinois.†</li>
+        </ul>
+        <h3>Candidates, party and grassroots</h3>
+        <ul>
+          <li>Democratic candidates have outspent their Republican opponents by <strong>$48M</strong> in direct campaign funds; Talarico alone has spent $47M.†</li>
+          <li>The <strong>DNC</strong> has $16.9M cash against $17.6M debt. Grassroots giving is strong: $14M in July and August from 1 million unique donors.†</li>
+          <li>Democrats lead the <strong>generic ballot by about 7 points</strong> and are favored in most battleground polls.†</li>
+        </ul>
+        <p>The shape of the race, then: Republicans have more outside money and more ad time booked; Democrats have better candidate fundraising, more grassroots donors, and a better national environment.</p>
+      </div>
+    </section>
+
+    <section id="impeachment" class="wrap pad">
+      <p class="kicker steel">Section 5</p>
+      <h2>Why Democrats Can't Win: The Impeachment Question</h2>
+      <div class="prose">
+        <p>Republicans argue that open talk of a third impeachment is a gift to them: it lets them frame the midterms as a vote on two more years of investigations rather than on prices and policy. Many Democrats take the opposite view and say accountability is the point. Here is what both sides have said, in their own words.</p>
+        <h3>The case for impeachment</h3>
+        <blockquote class="q">
+          <p>“No, it's not [a mistake]. Because it's not about Donald Trump, he's going to be a lame duck and, in my view, largely increasingly irrelevant. The point is to stand up for the Constitution.”</p>
+          <p>“Impeachment says that you can't get into an illegal war in Iran without constitutional approval. Impeachment says that you can't just start firing federal employees in defiance of what Congress says. Impeachment says you can't do deals with foreign governments to allegedly enrich your own family. It's about setting a standard.”</p>
+          <footer>Rep. Ro Khanna (D-CA), NBC's <em>Meet the Press</em>, September 27, 2026</footer>
+        </blockquote>
+        <blockquote class="q">
+          <p>“Trump is clearly the most impeachable President our country has ever endured. His continued presence in office is a danger to our democracy.”</p>
+          <footer>Rep. Steve Cohen (D-TN), introducing 26 articles of impeachment, September 24, 2026</footer>
+        </blockquote>
+        <blockquote class="q">
+          <p>“We haven't ruled anything in or ruled anything out in terms of accountability.” †</p>
+          <footer>House Minority Leader Hakeem Jeffries (D-NY), repeatedly</footer>
+        </blockquote>
+        <blockquote class="q">
+          <p>“If that's not high crimes and misdemeanors - and if it's not madness - I don't know what is.” †</p>
+          <footer>Rep. Madeleine Dean (D-PA), on Trump's Iran threat</footer>
+        </blockquote>
+        <blockquote class="q">
+          <p>“threatening genocide is not just against international law, it's against our federal law, too.”</p>
+          <footer>Rep. Sara Jacobs (D-CA), on Trump's Iran threat</footer>
+        </blockquote>
+        <blockquote class="q">
+          <p>“Congress needs to get back to work and remove him from office before he does more damage.”</p>
+          <footer>Rep. Seth Moulton (D-MA), on Trump's Iran threat</footer>
+        </blockquote>
+        <p>Sen. Andy Kim (D-NJ) has also pushed for impeachment, saying Trump “is unfit to be the Commander in Chief” and “should be removed.”†</p>
+
+        <h3>The Republican warning</h3>
+        <blockquote class="q gop">
+          <p>“They say they're not going to, but we know they will—they'll do a third impeachment of President Trump. But that's just part of it. They're going to investigate the first family, they're going to investigate Cabinet secretaries.”</p>
+          <footer>Rep. Jim Jordan (R-OH), House Judiciary Committee Chair, radio interview, September 27, 2026</footer>
+        </blockquote>
+
+        <h3>The Democratic counterpoint</h3>
+        <blockquote class="q">
+          <p>“Don't be impeaching anybody. Let's just get back to work.”</p>
+          <footer>Sen. Tammy Duckworth (D-IL)</footer>
+        </blockquote>
+        <p>Duckworth is not alone. Many establishment Democrats fear that impeachment talk alienates the swing voters the party needs, and that it hands Republicans a closing message. For a party leading on the generic ballot, the risk is less that impeachment talk costs it the House than that it narrows the margin in the Senate states where Trump ran strongest.</p>
+      </div>
+    </section>
+
+    <section id="markets" class="wrap pad">
+      <p class="kicker steel">Section 6</p>
+      <h2>Prediction Markets: What the Odds Say (as of September 30, 2026)</h2>
+      <div class="prose">
+        <p>With 34 days to Election Day, real-money prediction markets have priced the midterms. Three markets matter most. The figures below are from Kalshi and Polymarket, cross-checked across multiple trackers as of September 30, 2026.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="data wide">
+          <caption>The three markets that matter (odds as of September 30, 2026)</caption>
+          <thead><tr><th>Market</th><th>Democrats</th><th>Republicans</th><th>Detail</th><th>Volume</th></tr></thead>
+          <tbody>
+            <tr><td><strong>House control</strong></td><td class="num">~91–93%</td><td class="num">~8–9%</td><td>Kalshi 91%, Polymarket 92–93%. About as close to consensus as markets get.</td><td class="num">Polymarket ~$6–13M; Kalshi $38M+</td></tr>
+            <tr><td><strong>Senate control</strong></td><td class="num">~62–63%</td><td class="num">~37–38%</td><td>Kalshi 62%, Polymarket 62–63%. Moved from a Republican lean earlier in the cycle to a Democratic lean.</td><td class="num">Kalshi $37.5M+; Polymarket ~$5.3M</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-scroll">
+        <table class="data narrow">
+          <caption>Balance of Power (joint outcomes)</caption>
+          <thead><tr><th>Outcome</th><th>Probability</th></tr></thead>
+          <tbody>
+            <tr><td>Democratic sweep (House + Senate)</td><td class="num">~62–63%</td></tr>
+            <tr><td>Republican Senate + Democratic House</td><td class="num">~28–29%</td></tr>
+            <tr><td>Republican sweep</td><td class="num">~7.5–8%</td></tr>
+            <tr><td>Democratic Senate + Republican House</td><td class="num">~1–1.3%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">Odds as of September 30, 2026. Market prices are not forecasts by this publication and can move quickly.</p>
+
+      <h3>Live trackers</h3>
+      <div class="embeds">
+        <figure>
+          <div style="position:relative;width:100%;max-width:560px;margin:0 auto;aspect-ratio:560/300"><div><iframe src="https://predictionmarketspicks.com/embed/midterms-2026/hero?theme=parchment" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="eager" scrolling="no" title="2026 Midterms Tracker"></iframe></div></div>
+          <figcaption>Main tracker: balance of power plus the closest Senate and House races.</figcaption>
+        </figure>
+        <figure>
+          <div style="position:relative;width:100%;max-width:560px;margin:0 auto;aspect-ratio:560/300"><div><iframe src="https://predictionmarketspicks.com/embed/midterms-balance-of-power/hero?theme=parchment" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="eager" scrolling="no" title="Balance of Power 2026"></iframe></div></div>
+          <figcaption>Balance of Power 2026.</figcaption>
+        </figure>
+        <figure>
+          <div style="position:relative;width:100%;max-width:560px;margin:0 auto;aspect-ratio:560/300"><div><iframe src="https://predictionmarketspicks.com/embed/midterms-race/hero?theme=parchment" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="eager" scrolling="no" title="Tightest 2026 Senate Race"></iframe></div></div>
+          <figcaption>Tightest Senate race (Iowa: Ashley Hinson 60¢ as reported Sept 30, 2026).</figcaption>
+        </figure>
+      </div>
+      <p class="table-note">These trackers are live, sourced from Kalshi + Polymarket, and update about every 15 minutes, so they may differ from the snapshot figures above.</p>
+      <div class="prose">
+        <p>Polymarket event pages: <a class="text-link" href="https://polymarket.com/event/which-party-will-win-the-house-in-2026">House control</a> · <a class="text-link" href="https://polymarket.com/event/which-party-will-win-the-senate-in-2026">Senate control</a> · <a class="text-link" href="https://polymarket.com/event/balance-of-power-2026-midterms">Balance of Power</a>. Polymarket also offers its own embed via the &lt;&gt; icon on any market page. Its direct embed.polymarket.com iframes returned “Market not found” with these event slugs, so the tracker embeds above are used instead.</p>
+      </div>
+
+      <div class="opinion">
+        <p class="kicker steel">Analysis / opinion</p>
+        <h3>Grok's Take (as of September 30, 2026)</h3>
+        <p class="dagger-note">This subsection is analysis and opinion, not reporting.</p>
+
+        <h3>House at 91–93%: reasonable, arguably even conservative</h3>
+        <p>The structural factors are overwhelming. The president's party has lost House seats in every midterm since World War II except 1998 and 2002. Democrats lead the generic ballot by about 7 points. Republicans hold only a 221–214 majority† and Democrats need a net gain of 4 in a tough environment. Trump's approval is deep underwater (about 38–39%†). The only realistic paths to a Republican House are a major external shock (war, crisis) or a late polling miss. Markets have been stable here for weeks, and that lack of movement is itself a sign of confidence.</p>
+
+        <h3>Senate at 62–63%: the market's soft spot</h3>
+        <p>It looks reasonable on the surface but sits above several fundamentals-based models: Scrutinel simulations give Democrats 56%,† and VotePredictor's model gives Republicans 55%.† The gap suggests the market may be overweighting recent polling momentum and underweighting the map. Democrats must flip seats in states Trump won by 10+ points: Texas, Ohio, Alaska, Iowa and Maine. A 62% price is a lean, not a lock; 2024 showed Polymarket can move 15+ points in the final six weeks. Watch Iowa, Maine, Ohio and Texas. Kalshi's own “closest race” market has Texas at 16%, Iowa 13% and Kansas 11%.†</p>
+
+        <h3>What would move the odds</h3>
+        <ol>
+          <li><strong>A major geopolitical or economic shock before November 3.</strong> This is the single biggest wildcard, as it was for Trump in 2024.</li>
+          <li><strong>October polling.</strong> If the generic ballot tightens below 4 points, House odds compress fast.</li>
+          <li><strong>Musk's October 15 FEC filing.</strong> If America PAC's Q3 numbers show the $100–120M field program is real and deployed, Republican turnout models improve, especially in Iowa, Maine and Ohio, where door-knocking matters most.</li>
+          <li><strong>Candidate-specific news</strong> in the four toss-up Senate states.</li>
+          <li><strong>A Democratic messaging stumble on impeachment.</strong> The Khanna/Cohen/Jeffries impeachment talk is a live risk factor the market hasn't fully priced.</li>
+        </ol>
+
+        <h3>Bottom line</h3>
+        <p>The House is priced about right. The Senate is priced a touch rich for Democrats relative to the simulation models, and that's where the residual uncertainty lives.</p>
+      </div>
+    </section>
+
+    <section id="closing" class="wrap pad">
+      <p class="kicker steel">Section 7</p>
+      <h2>Closing: cash versus the polls</h2>
+      <div class="prose">
+        <p>The 2026 midterms come down to a contest between two advantages. Republicans have the money: more party cash, a nine-figure pro-Trump super PAC, more ad time booked through Election Day, and a Musk-funded turnout operation aimed at the voters who usually stay home in midterms. Democrats have the environment: a lead on the generic ballot, stronger candidate and grassroots fundraising, and prediction markets that make them heavy favorites for the House and modest favorites for the Senate.</p>
+        <p>The next hard data point is <strong>October 15</strong>, when Q3 FEC filings will clarify Musk's final number and show whether America PAC's field program is running at the scale reported in July. The final one is <strong>Election Day, November 3, 2026</strong>.</p>
+      </div>
+    </section>
+
+    <section id="sources" class="wrap pad">
+      <p class="kicker steel">Sources</p>
+      <h2>What this page is based on</h2>
+      <p class="dagger-note">Figures and quotes compiled as of September 30, 2026; items marked † could not be independently confirmed at publication. Odds as of September 30, 2026.</p>
+      <ul class="sources">
+        <li>The New York Times: America PAC's $100–120M field program (July 30, 2026); Senate Majority PAC Q2 fundraising; megadonor tallies. <a class="text-link" href="https://www.seattletimes.com/nation-world/elon-musk-plans-at-least-100m-in-midterm-spending-giving-gop-a-boost/">Syndicated copy (Seattle Times)</a></li>
+        <li>Federal Election Commission: committee filings and 24/48-hour independent expenditure reports. <a class="text-link" href="https://docquery.fec.gov/pdf/353/202609289908481353/202609289908481353.pdf">America PAC filing (Sept 2026)</a></li>
+        <li>Bloomberg: America PAC's September spending, via <a class="text-link" href="https://politicalwire.com/2026/09/25/elon-musks-pac-spends-20-million/">Political Wire</a> and <a class="text-link" href="https://www.sacurrent.com/news/texas-news/elon-musk-has-spent-more-than-6-million-backing-ken-paxtons-senate-race-over-past-few-weeks/">San Antonio Current</a></li>
+        <li>Business Insider: <a class="text-link" href="https://www.businessinsider.com/billionaire-donors-midterm-elections-2026-9">The 25 billionaires and millionaires who have already spent roughly $850 million ahead of the midterms</a> (Sept 28, 2026)</li>
+        <li>CNBC: <a class="text-link" href="https://www.cnbc.com/2026/09/22/republicans-democrats-election-fundraising-2026.html">Democrats lead the polls. Republicans lead in cash heading into the midterms</a> (Sept 22, 2026)</li>
+        <li>Reuters: super PAC spending since Labor Day; <a class="text-link" href="https://979weve.com/2026/07/30/musks-america-pac-plans-100-million-plus-effort-to-boost-republican-turnout-nyt-reports/">report on the America PAC field program</a></li>
+        <li>AdImpact: ad reservations through Election Day, via <a class="text-link" href="https://economictimes.indiatimes.com/news/international/world-news/republicans-unleash-spending-blitz-of-900-million-in-record-us-midterms/articleshow/134450896.cms">AFP</a></li>
+        <li>The Washington Post: <a class="text-link" href="https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/">These are the biggest individual donors in the 2026 election cycle</a></li>
+        <li>Senate Majority PAC: <a class="text-link" href="https://senatemajority.com/news/senate-majority-pac-and-majority-forward-post-best-fundraising-quarter-of-the-cycle/">Q2 2026 fundraising release</a></li>
+        <li>Quotes: <a class="text-link" href="https://truthout.org/articles/khanna-says-trump-impeachment-about-setting-a-standard-of-accountability/">Khanna (Meet the Press)</a> · <a class="text-link" href="https://www.newsweek.com/donald-trump-hit-with-26-articles-of-impeachment-12492238">Cohen (Newsweek)</a> · <a class="text-link" href="https://www.commondreams.org/news/trump-impeachment-vote-2026">Jordan (Common Dreams)</a> · <a class="text-link" href="https://www.ibtimes.co.uk/ro-khanna-third-trump-impeachment-house-1822672">Duckworth (IBTimes)</a> · <a class="text-link" href="https://apnews.com/article/trump-iran-threats-democrats-impeachment-ea13fc589d1dd75e552de883f2e86e71">Jacobs, Moulton (AP)</a></li>
+        <li>Supreme Court citizenship-database ruling: <a class="text-link" href="https://www.scotusblog.com/2026/09/supreme-court-clears-way-for-trump-administration-to-use-modified-voter-verification-database/">SCOTUSblog</a></li>
+        <li>Prediction markets and models: Kalshi; Polymarket (<a class="text-link" href="https://polymarket.com/event/which-party-will-win-the-house-in-2026">House</a>, <a class="text-link" href="https://polymarket.com/event/which-party-will-win-the-senate-in-2026">Senate</a>, <a class="text-link" href="https://polymarket.com/event/balance-of-power-2026-midterms">Balance of Power</a>); PredictIt; Robinhood; Scrutinel; VotePredictor; Decision Desk HQ; Cook Political Report. Live trackers by <a class="text-link" href="https://predictionmarketspicks.com/">PredictionMarketsPicks</a>.</li>
+      </ul>
+      <p class="updated">Last updated September 30, 2026.</p>
+    </section>
+  </main>
+
+  <footer class="bar">
+    <div class="wrap row">
+      <a class="wordmark" href="../">Carvking</a>
+      <span class="date">Midterms 2026 · Money, Musk, and the Fight for Congress · Last updated September 30, 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
