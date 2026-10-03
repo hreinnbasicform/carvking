@@ -1,108 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-29F65YY9T2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'G-29F65YY9T2');
 </script>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The animal they would not draw · Carvking</title>
-<meta name="description" content="The oldest panda picture got the coat right and the body wrong. For two thousand years the texts described a bear. The pictures described a chimera. That split is the story.">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css">
-<style>
-  .essay { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
-  .essay h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); margin: 0.4rem 0 0.8rem; }
-  .essay h2 { font-size: 1.55rem; margin: 2.2rem 0 0.6rem; }
-  .essay p, .essay li { font-size: 1.08rem; }
-  .essay figure { margin: 1.4rem 0 1.6rem; }
-  .essay figure img { width: 100%; height: auto; max-height: 28rem; object-fit: contain; background: var(--surface); border: 1px solid var(--rule); border-radius: 0.75rem; }
-  .theory { background: var(--surface); border: 1px solid var(--rule); border-radius: 0.75rem; padding: 1.1rem 1.2rem; margin: 0.9rem 0; }
-  .theory h3 { margin: 0.2rem 0 0.45rem; font-size: 1.2rem; }
-  .stamp { font-family: var(--sans); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Animal They Would Not Draw: The 2,000-Year Mystery of the Oldest Panda Pictures — Carvking</title>
+  <meta name="description" content="China wrote about the giant panda for two thousand years and almost never drew it. When it did, it drew a monster with an elephant's trunk. A conspiracy essay about the oldest panda pictures, the red panda's strange discovery and an animal built to hide." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Carvking" />
+  <meta property="og:title" content="The Animal They Would Not Draw" />
+  <meta property="og:description" content="Two thousand years of texts. Almost no pictures. And the one early picture has an elephant's trunk. What happened to the panda?" />
+  <meta property="og:url" content="https://carvking.com/panda/" />
+  <meta property="og:image" content="https://carvking.com/panda/hardwicke-red-panda-c1820.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    /* Page-local rules for /panda/ (kept inline so the shared style.css is untouched). */
+    section.wrap.pad { padding-left: 1.25rem; padding-right: 1.25rem; }
+    section.pad + section.pad { padding-top: 0.5rem; }
+    .prose { max-width: 46rem; }
+    .prose p, .prose li { font-size: 1.08rem; }
+    .prose h3 { font-size: 1.3rem; margin: 2rem 0 0.5rem; }
+    .prose ul { padding-left: 1.1rem; }
+    .prose li { margin-bottom: 0.5rem; }
+    .ref { font-size: 0.85em; color: var(--steel); }
+    figure.plate { max-width: 46rem; margin: 1.5rem 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 0.75rem; padding: 1rem; }
+    figure.plate img { width: 100%; height: auto; display: block; border-radius: 0.4rem; background: #fff; }
+    figure.plate figcaption { font-size: 0.85rem; margin-top: 0.6rem; color: var(--muted); }
+    figure.plate figcaption a { color: var(--steel); text-decoration: underline; text-underline-offset: 0.15em; }
+    .waitwhat { max-width: 46rem; border-left: 3px solid var(--misleading); background: var(--misleading-bg); border-radius: 0 0.5rem 0.5rem 0; padding: 0.85rem 1.1rem; margin: 1.25rem 0; font-family: var(--display); font-size: 1.15rem; line-height: 1.4; color: var(--ink); }
+    .ink-block { max-width: 46rem; }
+    .ink-block p { margin: 0.4rem 0 0; font-family: var(--display); font-size: 1.2rem; line-height: 1.4; }
+    .theory { max-width: 46rem; border: 1px dashed var(--steel); background: color-mix(in oklab, var(--steel) 6%, var(--surface)); border-radius: 0.75rem; padding: 1.1rem 1.35rem; margin: 1.25rem 0; }
+    .theory h3 { margin: 0.3rem 0 0.5rem; font-size: 1.25rem; }
+    .theory p { font-size: 1.05rem; margin: 0.5rem 0 0; }
+    .promo { max-width: 46rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 1rem; background: var(--ink); color: var(--steel-fg); border-radius: 0.75rem; padding: 1rem 1.25rem; margin: 1.5rem 0 0.5rem; }
+    .promo p { margin: 0; font-family: var(--display); font-size: 1.1rem; }
+    .promo .cta { background: var(--steel-fg); color: var(--ink); }
+    .sources li { padding: 0.85rem 0; }
+    .sources li a { display: inline; padding: 0; color: var(--steel); text-decoration: underline; text-underline-offset: 0.15em; }
+    .updated { font-size: 0.85rem; color: var(--subtle); margin-top: 1rem; }
+  </style>
 </head>
 <body>
-<header class="bar">
-  <div class="wrap row">
-    <a class="wordmark" href="/">Carvking</a>
-    <span class="kicker hide-sm">The animal they would not draw</span>
-    <span class="date">3 October 2026</span>
-  </div>
-</header>
-<article class="essay">
-  <p class="kicker steel">Carvking · images · natural history</p>
-  <h1>The oldest panda drawing got the coat right and the animal wrong.</h1>
-  <p class="lede">For two thousand years Chinese texts described a black-and-white bamboo-eating bear. The pictures described a chimera with an elephant trunk. That split is not a slip. It is the archive.</p>
-  <p class="kicker muted">Record first. Theories after. The pictures are real. The reading is the argument.</p>
+  <header class="bar">
+    <div class="wrap row">
+      <a class="wordmark" href="../">Carvking</a>
+      <span class="kicker hide-sm">Panda</span>
+      <span class="date">October 2026</span>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Sections">
+    <div class="wrap">
+      <a href="../">All posts</a>
+      <a href="#drawing">The drawing</a>
+      <a href="#absence">The absence</a>
+      <a href="#texts">The texts</a>
+      <a href="#red">Red panda</a>
+      <a href="#theories">Theories</a>
+      <a href="#research">Sources</a>
+      <a href="infographic/">Infographic</a>
+    </div>
+  </nav>
 
-  <h2>The oldest picture</h2>
-  <p>The oldest surviving illustration of the animal the Chinese called <em>mo</em> (貘) sits in the <em>Erya yintu</em>, an illustrated edition of the ancient glossary <em>Erya</em>. The transmitted pictures come from a Song or Yuan drawing, surviving as an 1801 facsimile published by Zeng Yu from Song-period prints. It is the only early example that shows the coat the way a panda coat actually works: white through the middle, dark at the shoulders and legs.</p>
-  <figure>
-    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Erya_yintu_mo_%E8%B2%98_entry.svg" alt="Erya yintu woodblock of the mo: a black-and-white animal with an elephant-like trunk">
-    <figcaption>The mo entry in the 1801 <em>Erya yintu</em>. White midsection, dark limbs, and a head that is an elephant. Wikimedia Commons, public domain.</figcaption>
-  </figure>
-  <p>Everything else is wrong. The head has a trunk. Later Chinese and Japanese blocks follow the ninth-century recipe: elephant trunk, rhinoceros eyes, cow tail, tiger paws. That recipe is not a field note. It is a poem. Bo Juyi, the Tang official, wrote of a painting of a <em>mo</em> beside his bed and described exactly that composite. Images of it were supposed to repel contagion and evil. The charm outlived the animal.</p>
+  <main>
+    <section class="wrap pad">
+      <p class="kicker steel">Carvking · Panda · An investigation</p>
+      <h1>The Animal They Would Not Draw</h1>
+      <p class="lede">For two thousand years Chinese writers described the giant panda: a bear-like animal from Sichuan, black and white, that eats bamboo. In all that time, almost nobody drew one. And the oldest picture we have gives it an elephant's trunk.</p>
+      <div class="prose">
+        <p>I didn't go looking for a conspiracy. I went looking for the oldest picture of a panda. What I found was a hole in the record the shape of a bear, a monster standing in it, and a second panda with a cover story of its own. Every claim below is sourced. The conclusions are mine.</p>
+      </div>
+      <div class="promo">
+        <p>See all 2,000 years on one chart: <em>The Mo Chronicle</em>.</p>
+        <a class="cta" href="infographic/">Open the infographic →</a>
+      </div>
+    </section>
 
-  <h2>The absence</h2>
-  <p>There is no known drawing of a giant panda from life before the nineteenth century. Father Armand David sent the animal to European science in 1869. The first printed image followed in a French zoological book in 1874. The giant panda does not appear on ancient bronzes or pottery. It is not a subject of Tang poetry, Song painting, Yuan drama, Ming fiction, or Qing porcelain. It enters “traditional” Chinese art only in the late twentieth century.</p>
-  <p>That is odd, because the animal was not unknown to people who could have ordered a picture. Emperor Taizong of Tang handed out <em>mo</em> pelts as banquet gifts. A third-century record has an emperor at Chang’an keeping several as pets. The Dowager Empress Bo, buried around 170 BCE, went into the tomb with a panda skull. Luxury fur, palace pets, a grave good. Then two millennia of artists who somehow never drew the thing they were wrapping emperors in.</p>
+    <section id="drawing" class="wrap pad">
+      <p class="kicker steel">1 · The oldest drawing</p>
+      <h2>Exhibit A: a panda with a trunk</h2>
+      <div class="prose">
+        <p>The ancient Chinese word for the giant panda was <em>mo</em> (貘). That isn't my theory. It's the conclusion of Donald Harper of the University of Chicago, in a 2013 paper in the journal <em>Early China</em>, following Chinese scholars who first argued it in the 1970s. Hold on to that date.</p>
+        <p>The oldest surviving picture of the <em>mo</em> is in the <em>Erya yintu</em>, an illustrated edition of China's oldest dictionary. Its pedigree reads like a chain of custody: an illustrated Song-dynasty (960–1279) edition was copied by hand in the Yuan dynasty (1271–1368), and that Yuan copy survives as a woodblock facsimile printed in 1801. So the image is a copy of a copy of a copy.</p>
+      </div>
+      <figure class="plate">
+        <img src="erya-yintu-mo-1801.svg" width="512" height="331" loading="lazy" alt="Black-and-white woodblock illustration of the mo: a heavy four-legged animal with an elephant-like head and trunk, dark shoulders and legs, and a pale band around its middle." />
+        <figcaption>The <em>mo</em> (貘) entry in the <em>Erya yintu</em> (爾雅音圖), 1801 facsimile edition. Attributed to Guo Pu (276–324). Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Erya_yintu_mo_%E8%B2%98_entry.svg">Wikimedia Commons</a>.</figcaption>
+      </figure>
+      <div class="prose">
+        <p>Look at the coat. White middle, black shoulders, black legs. That's the giant panda's pattern, and this is the only early depiction that gets it. Now look at everything else: an elephant's trunk, and a body assembled from the stock parts of a nightmare. The standard formula for the <em>mo</em> in later Chinese books was elephant trunk, rhinoceros eyes, cow tail and tiger paws.</p>
+      </div>
+      <div class="waitwhat">Somebody, somewhere in that chain, knew exactly what the coat looked like. And put a trunk on it anyway.</div>
+    </section>
 
-  <h2>The words were better than the pictures</h2>
-  <p>Xu Shen, around the first and second centuries, compared <em>mo</em> to a bear in the <em>Shuowen jiezi</em>. Every description before Bo Juyi does the same. The <em>Erya</em> calls it a white-and-black animal that eats bamboo. Li Shizhen, in the sixteenth century, puts an aggressive yellow-and-black bamboo-eater in Sichuan. Donald Harper’s study in <em>Early China</em> tracks the name back to the giant panda and pins the tapir mix-up on Jean-Pierre Abel-Rémusat in 1824, who trusted the trunked woodblocks and renamed the word.</p>
-  <p>So the file splits. Elites who read got a bear. Everyone who looked at a picture got a monster that wards off plague. Abel-Rémusat then exported the monster to Western zoology, and <em>mo</em> became the modern Chinese and Japanese word for tapir. The original referent was vacated. A name that once pointed at a panda now points at an animal that did not live in historical China.</p>
+    <section id="absence" class="wrap pad">
+      <p class="kicker steel">2 · The absence</p>
+      <h2>Two thousand years without a portrait</h2>
+      <div class="prose">
+        <p>As far as I can find, no drawing of a giant panda made from life exists before the 19th century. The first one came from a Frenchman. In 1869 the Lazarist missionary Père Armand David obtained a specimen from hunters in Sichuan and sent it to Paris. He named it <em>Ursus melanoleucus</em>, the black-and-white bear. The first printed image came from that specimen: a plate in Henri and Alphonse Milne-Edwards' <em>Recherches pour servir à l'histoire naturelle des mammifères</em>, issued in parts from 1868 to 1874.</p>
+        <p>Before that, Chinese artists drew the <em>mo</em> as a chimera, and they copied each other doing it. Wang Qi's 1609 encyclopedia <em>Sancai tuhui</em> printed a trunked <em>mo</em>. The 1712 Japanese <em>Wakan sansai zue</em> and the 1725 Chinese imperial encyclopedia copied it so closely that Harper uses one detail, the raised left front paw, as proof of copying.</p>
+        <p>Then think about where you'd expect to see a panda. China produced bronzes, pottery, silk painting, Song landscapes, Yuan drama, Ming fiction and Qing porcelain, an enormous visual culture that put cranes, tigers, deer, carp and monkeys on everything. I've found no recognisable giant panda in any of it. The panda you see today on scrolls and in “traditional-style” ink paintings is largely a modern arrival of roughly the last 40–50 years, from the late 20th century, after the animal became a national symbol.</p>
+      </div>
+      <div class="waitwhat">The most recognisable animal on Earth is missing from one of the most visual civilisations in history. Not rare. Missing.</div>
+    </section>
 
-  <h2>The other panda, found as an otter</h2>
-  <p>Europe’s first picture of the red panda is a watercolour of about 1820, painted by an unnamed Indian artist for Thomas Hardwicke and filed as “Mustela Zebellina? From Nepal” — a sable, with a question mark. The specimen trail starts in a Kathmandu bazaar in 1818, a “stuffed otter” noticed by Bharat Singh, one of Nathaniel Wallich’s collectors. Hardwicke’s paper was read at the Linnean Society in 1821 and published in 1827. Frédéric Cuvier described and named <em>Ailurus fulgens</em> in 1825, from specimens that likely came through the same Nepali network via Alfred Duvaucel. The red panda got the English word “panda” almost fifty years before the giant panda was formally named.</p>
-  <figure>
-    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Anh48_0368_1.jpg" alt="1820 watercolour of a red panda, commissioned by Thomas Hardwicke and mislabeled as a possible sable from Nepal">
-    <figcaption>Hardwicke’s red panda, about 1820. Drawn from a real animal, filed under the wrong genus. Reproduction of the Company painting; Wikimedia Commons.</figcaption>
-  </figure>
+    <section id="texts" class="wrap pad">
+      <p class="kicker steel">3 · The texts knew</p>
+      <h2>The words were right. The pictures were wrong.</h2>
+      <div class="prose">
+        <p>The written record never lost the animal.</p>
+        <ul>
+          <li><strong>The <em>Erya</em></strong> (c. 3rd century BCE) defines the <em>mo</em> as a “white leopard.” Its great commentator Guo Pu (276–324) fills it in: it resembles a bear, with a small head and short legs, is mottled black and white, and eats copper, iron and <em>bamboo</em>.</li>
+          <li><strong>Xu Shen</strong> (c. 55–c. 149 CE), in the <em>Shuowen jiezi</em>, China's first great character dictionary, says the <em>mo</em> “resembles the bear, yellow and black in colour, comes from Shu.” Shu is Sichuan, the panda's home.</li>
+          <li><strong>Li Shizhen</strong>, in his 1596 <em>Bencao gangmu</em>, still says it's like a bear, black and white, eats bamboo, and lives in the Emei mountains of Sichuan and in Yunnan. He also notes, casually, that “in the Tang dynasty it was a favorite motif for screens.” Then, in the same entry, he repeats the trunk.</li>
+        </ul>
+        <p>So what happened? Harper pins it on one man. In 823 the Tang poet Bo Juyi (772–846), who suffered from headaches, had a painter put a <em>mo</em> on his folding screen, because a picture of the beast was believed to ward off sickness and evil. He wrote a famous little poem about it, and its preface gives the description: “elephant trunk, rhinoceros eyes, cow tail, tiger paws.” That's the formula. For roughly a thousand years after that, the picture of the <em>mo</em> followed Bo Juyi, not the bear.</p>
+        <p>And here's the part that should make you sit up. In 1824 the French sinologist Jean-Pierre Abel-Rémusat looked at those trunked woodblocks and decided the <em>mo</em> was a <em>tapir</em>, specifically the Malayan tapir Europe had just described. Western zoology took his word for it. Japan followed, then China. The word <em>mo</em> still means tapir today. Harper's verdict: “One man's speculation led to an event of modern cultural amnesia and the giant panda was erased from the record of pre-modern Chinese civilization until the 1970s.”</p>
+      </div>
+      <div class="waitwhat">The picture didn't just hide the panda. In 1824 it handed the panda's name to a different animal. It took about 150 years to get it back.</div>
+    </section>
 
-  <h2>What the pictures are doing</h2>
-  <p>Four readings. The first two are the ordinary historical explanation. The last two are the ones that do not sit still.</p>
+    <section id="red" class="wrap pad">
+      <p class="kicker steel">4 · The other panda</p>
+      <h2>The red panda's cover story</h2>
+      <div class="prose">
+        <p>Now the second animal, because it was here first, at least in English.</p>
+        <p>In 1818 Bharat Singh, a plant collector working in Kathmandu for the Calcutta Botanic Garden, noticed something odd for sale in a bazaar: a “stuffed otter” that wasn't an otter. The story was reconstructed only in 2023, from letters between the British Residency in Kathmandu and the botanist Nathaniel Wallich (Watson, <em>Archives of Natural History</em>). Singh went on to get more specimens and information from traders. It was a red panda.</p>
+        <p>Major-General Thomas Hardwicke, an East India Company officer who commissioned thousands of natural-history paintings, sent a description of the animal and a watercolour to the Linnean Society in London.</p>
+      </div>
+      <figure class="plate">
+        <img src="hardwicke-red-panda-c1820.jpg" width="528" height="392" loading="lazy" alt="Watercolour of a red panda walking along a cut branch, with its russet coat, dark legs and ringed tail, and three studies of its paws drawn across the top of the sheet." />
+        <figcaption>Watercolour of a red panda, c. 1820, by an unknown Indian artist commissioned by Major-General Thomas Hardwicke. Reportedly labelled “Mustela Zebellina? From Nepal.” Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Anh48_0368_1.jpg">Wikimedia Commons</a>. The Linnean Society dates its Hardwicke watercolour to January 1821 and attributes it to J. Hayes.</figcaption>
+      </figure>
+      <div class="prose">
+        <p>The painting is almost certainly the first image of a red panda to reach Europe (Lowther, <em>Archives of Natural History</em>, 2021). Hardwicke's paper was read at the Society on 6 November 1821. Then it sat. It wasn't printed until 1827, in volume 15 of the Society's <em>Transactions</em>. In the meantime, in 1825, Frédéric Cuvier in Paris published the species as <em>Ailurus fulgens</em>, the “shining cat,” from specimens sent by Alfred Duvaucel. The rules give the name to whoever publishes first. Hardwicke lost.</p>
+        <p>But according to the 2023 paper, Duvaucel's specimens probably came from Bharat Singh too. One man in a Kathmandu market supplied both rivals. One rival's paper sat for six years. And the label on the first painting guessed <em>Mustela</em>, the weasel genus.</p>
+        <p>One more detail. The red panda was called simply “panda” in English, and was the only animal by that name for more than 40 years, before the giant panda was described in 1869. The giant panda borrowed its name from a smaller, redder animal that Europe met through a mislabelled watercolour and a stuffed otter.</p>
+      </div>
+    </section>
 
-  <div class="theory">
-    <p class="stamp">Theory 1 · curation, not ignorance</p>
-    <h3>A creature you cannot draw cannot be claimed.</h3>
-    <p>The coat is the one detail a copyist would not invent, because a charm does not need a white belly. Someone had seen the animal. Then the head was replaced. Accurate sentences kept moving through dictionaries. The public image was a ward against disease. Ask who benefits from a panda that looks like a myth. A classified animal can be hunted, taxed, gifted, and studied. A charm cannot.</p>
-  </div>
-  <div class="theory">
-    <p class="stamp">Theory 2 · the two-thousand-year blank</p>
-    <h3>Rarity does not explain a palace pet with no portrait.</h3>
-    <p>Chinese artists drew tigers, cranes, cicadas, horses, elephants. They drew bears. They did not draw this bear. If the pelt was rare enough to be an imperial gift, it was rare enough to be worth a picture. The blank is selective. Either nobody who painted ever saw one, which contradicts the pets and the grave, or the form was kept out of the image record on purpose.</p>
-  </div>
-  <div class="theory">
-    <p class="stamp">Theory 3 · the naming theft</p>
-    <h3>The lesser animal got the name first. The paper was late on purpose, or the delay was useful.</h3>
-    <p>A stuffed otter in a bazaar. An unnamed painter. A mislabeled sheet. A reading in 1821 and a publication in 1827, just late enough for Paris to take the name. Too many hands between the mountain and the journal. The red panda is not a raccoon and not a bear, and it is not close kin to the giant panda. Convergent thumbs, convergent diet, and then a shared English name granted to the animal Europe met first. The giant one arrives already nicknamed after a cousin it does not have.</p>
-  </div>
-  <div class="theory">
-    <p class="stamp">Theory 4 · the animal that hides from painters</p>
-    <h3>In 2021 the coat was shown to work as camouflage. It had already worked on the archive.</h3>
-    <p>Tim Caro and colleagues, using wild photographs and predator vision models, found the black patches sit with trunks and shadow, the white with foliage and snow, and the outline breaks up past about fifty-five metres. An animal that disappears in its own forest also disappeared from the only civilisation that lived next to it. Two thousand years of not being drawn is a second kind of camouflage. The question is what else in that forest was filed as a charm instead of a species.</p>
-  </div>
+    <section id="theories" class="wrap pad">
+      <p class="kicker steel">5 · What I think happened</p>
+      <h2>Four theories, in rising order of discomfort</h2>
+      <div class="prose">
+        <p>These are speculations. I mean them seriously, and I've labelled them as what they are.</p>
+      </div>
 
-  <div class="ink-block">
-    <p>The record is plain. The texts knew a bear. The blocks knew a monster. Europe met the red one as an otter and a sable, and met the giant one only after the name had been given away. If that is just how premodern natural history works, it is a strange way for it to work on one animal and not the tiger.</p>
-  </div>
+      <div class="theory">
+        <p class="kicker steel">Theory 1</p>
+        <h3>The chimera was the point</h3>
+        <p>A creature that can't be drawn can't be studied, classified or claimed. Notice who kept the accurate version: lexicographers, commentators and pharmacologists, the scholar-official class with the dictionaries. Notice what everyone else got: a talisman on a screen, a monster in a printed encyclopedia. The bear stayed in the books and the beast went to the public. Bo Juyi wasn't a hermit with a sketchbook. He was a senior government official. Who benefits from a panda that looks like a myth? Anyone who wants the real one left alone, or kept for themselves.</p>
+      </div>
 
-  <h2>Read it yourself</h2>
-  <ul class="sources">
-    <li><a href="https://commons.wikimedia.org/wiki/File:Erya_yintu_mo_%E8%B2%98_entry.svg">Erya yintu mo entry, Wikimedia Commons</a></li>
-    <li><a href="https://commons.wikimedia.org/wiki/File:Anh48_0368_1.jpg">Hardwicke red panda watercolour, Wikimedia Commons</a></li>
-    <li><a href="https://www.cambridge.org/core/journals/early-china/article/cultural-history-of-the-giant-panda-ailuropoda-melanoleuca-in-early-china/2536F99928B934B6BCFE661EAAED7AED">Donald Harper, The Cultural History of the Giant Panda in Early China</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Mo_(Chinese_zoology)">Mo (Chinese zoology), the name that became tapir</a></li>
-    <li><a href="https://www.linnean.org/research-collections/on-display/staircase/local-expertise">Linnean Society, Hardwicke’s red panda sheet and Bharat Singh</a></li>
-  </ul>
-  <p class="kicker muted">Carvking · carvking.com/panda · the theories are labeled. The dates are not.</p>
-</article>
+      <div class="theory">
+        <p class="kicker steel">Theory 2</p>
+        <h3>It wasn't rare. It was reserved.</h3>
+        <p>The usual explanation for the missing pictures is that hardly anyone ever saw a panda. Then explain this. In 1975, archaeologists found a giant panda skull in the tomb of Empress Dowager Bo, who died in 155 BCE (popular accounts round the burial to c. 170 BCE; only the skull was there; the body was gone, probably taken by tomb robbers). In 2023, a complete panda skeleton turned up in a sacrificial pit beside the mausoleum of her son, Emperor Wen of Han, laid out with its head facing the emperor among tigers, yaks and, yes, tapirs. Emperor Wu's hunting park included the <em>mo</em> among its southern beasts, according to Sima Xiangru's rhapsody of c. 138 BCE; George Schaller, in <em>The Last Panda</em> (1993), calls it the most treasured animal in the emperor's garden. Tang Taizong (r. 626–649) handed out <em>mo</em> pelts as banquet gifts to chosen officials. (You'll also read that an emperor kept several pandas as pets around 210 CE. I couldn't find a primary source for that, so treat it as unproven.)</p>
+        <p>Emperors buried them, displayed them and gave away their skins. And still, apparently, nobody painted one. Either the animal was so rare that no artist ever saw it, in a court that kept it in parks and tombs, or somebody decided it was better kept mythic.</p>
+      </div>
+
+      <div class="theory">
+        <p class="kicker steel">Theory 3</p>
+        <h3>The red panda “discovery” is a cover</h3>
+        <p>Line up the facts. A stuffed otter that isn't an otter. A painting whose artist goes unnamed in one archive and is named in another. A label that guesses the wrong family. A paper that waited six years while a rival in Paris published from what may have been the same collector's specimens. And an English name, “panda,” attached to the small red animal almost half a century before the big black-and-white one was formally named. If you wanted to put a harmless decoy “panda” into European science before the real one arrived, you couldn't do much better than a cute tree-climber from Nepal.</p>
+      </div>
+
+      <div class="theory">
+        <p class="kicker steel">Theory 4 · the kicker</p>
+        <h3>It was built to disappear</h3>
+        <p>Why is a giant panda black and white? It was a genuine scientific mystery until 2021. That year, a study in <em>Scientific Reports</em> by Ossi Nokelainen, Nicholas Scott-Samuel, Yonggang Nie, Fuwen Wei and Tim Caro (“The giant panda is cryptic”) analysed photos of pandas in the wild through models of dog, cat and human vision. Their conclusion: the coat is camouflage. The black blends into shade and tree trunks, the white into foliage and snow. At a distance the pattern breaks up the animal's outline. (Caro's group had argued for camouflage in 2017, but 2021 was the first test using pictures from the wild.)</p>
+        <p>So here's an animal whose coat makes it hard to see, which hid from predators for millions of years, from artists for two thousand, and from its own name until the 1970s.</p>
+      </div>
+
+      <div class="ink-block">
+        <p class="kicker muted">The question I can't shake</p>
+        <p>If the most famous animal on Earth could stay hidden in plain sight for two thousand years, written down perfectly and drawn as a monster, what else is in the dictionaries that we've only ever seen as a picture?</p>
+      </div>
+    </section>
+
+    <section id="research" class="wrap pad">
+      <p class="kicker steel">Do your own research</p>
+      <h2>Don't take my word for it</h2>
+      <div class="prose">
+        <p>Start here, and read the footnotes. That's where the panda has been hiding.</p>
+      </div>
+      <ul class="sources">
+        <li>The 1801 <em>Erya yintu</em> <em>mo</em> woodblock: <a href="https://commons.wikimedia.org/wiki/File:Erya_yintu_mo_%E8%B2%98_entry.svg">Wikimedia Commons file page</a></li>
+        <li>Hardwicke's red panda watercolour, c. 1820: <a href="https://commons.wikimedia.org/wiki/File:Anh48_0368_1.jpg">Wikimedia Commons file page</a></li>
+        <li>Donald Harper, “The Cultural History of the Giant Panda (<em>Ailuropoda melanoleuca</em>) in Early China,” <em>Early China</em> 35/36 (2012–13): <a href="https://www.cambridge.org/core/journals/early-china/article/abs/cultural-history-of-the-giant-panda-ailuropoda-melanoleuca-in-early-china/2536F99928B934B6BCFE661EAAED7AED">Cambridge Core</a></li>
+        <li>The Linnean Society on Hardwicke's red panda drawing and the 1821 paper: <a href="https://www.linnean.org/research-collections/on-display/staircase/local-expertise">Linnean Society, “Local Expertise”</a></li>
+        <li>Further reading: Lowther, “The first painting of the red panda in Europe?” (<a href="https://www.euppublishing.com/doi/10.3366/anh.2021.0728">Archives of Natural History, 2021</a>); Watson, “Bharat Singh's Stuffed Otter” (<a href="https://www.euppublishing.com/doi/10.3366/anh.2023.0830">Archives of Natural History, 2023</a>); Nokelainen et al., “The giant panda is cryptic” (<a href="https://www.nature.com/articles/s41598-021-00742-4">Scientific Reports, 2021</a>).</li>
+      </ul>
+      <div class="promo">
+        <p>Two pandas, 2,000 years, one map: <em>The Mo Chronicle</em>.</p>
+        <a class="cta" href="infographic/">See the infographic →</a>
+      </div>
+      <p class="updated">Published October 2026. Images are public domain, from Wikimedia Commons. Theories are the author's speculation and are labelled as such.</p>
+    </section>
+  </main>
+
+  <footer class="bar">
+    <div class="wrap row">
+      <a class="wordmark" href="../">Carvking</a>
+      <span class="date">Panda · The Animal They Would Not Draw · October 2026</span>
+    </div>
+  </footer>
 </body>
 </html>
